@@ -1,0 +1,13 @@
+# Use the official RabbitMQ image from Docker Hub
+FROM rabbitmq:latest
+
+# Expose the default RabbitMQ ports
+EXPOSE 5672 15672
+
+# Optionally, set other configuration parameters if needed
+ENV RABBITMQ_DEFAULT_USER=myuser
+ENV RABBITMQ_DEFAULT_PASS=mypassword
+# ...
+
+# Define the volume for RabbitMQ data persistence
+VOLUME /var/lib/rabbitmq
