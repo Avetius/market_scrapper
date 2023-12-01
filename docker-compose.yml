@@ -27,12 +27,12 @@ services:
     volumes:
       - influxdb-data:/var/lib/influxdb
 
-  gateio-ws-app:
+  gateio-api:
     build:
-      context: ./gateio_ws_app
+      context: ./gateio_api
     environment:
-      - WEBSOCKET_URL=ws://websocket-app:3000
-      - RABBITMQ_URL=amqp://rabbitmq_user:rabbitmq_password@rabbitmq:5672
+      - WS_URL=ws://gateio-ws:3000
+      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
       - INFLUXDB_URL=http://influxdb:8086
       - INFLUXDB_DATABASE=your_database_name
     ports:
@@ -41,19 +41,20 @@ services:
       - influxdb
       - rabbitmq
 
-    gateio-api-app:
-        build:
-          context: ./gateio_api_py
-        environment:
-          - WEBSOCKET_URL=ws://websocket-app:3000
-          - RABBITMQ_URL=amqp://rabbitmq_user:rabbitmq_password@rabbitmq:5672
-          - INFLUXDB_URL=http://influxdb:8086
-          - INFLUXDB_DATABASE=your_database_name
-        ports:
-          - "3000:3000"
-        depends_on:
-          - influxdb
-          - rabbitmq
+  gateio-ws:
+    build:
+      context: ./gateio_ws
+    environment:
+      - API_URL=ws://gateio-api:3000
+      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
+      - INFLUXDB_URL=http://influxdb:8086
+      - INFLUXDB_DATABASE=your_database_name
+    ports:
+      - "3001:3001"
+    depends_on:
+      - influxdb
+      - rabbitmq
+
 volumes:
   rabbitmq-data:
   influxdb-data:

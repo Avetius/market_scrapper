@@ -1,14 +1,21 @@
 # !/usr/bin/env python
 # coding: utf-8
-
+import os
 import hashlib
 import hmac
 import json
 import logging
 import time
+from dotenv import load_dotenv
 
 # pip install -U websocket_client
 from websocket import WebSocketApp
+
+load_dotenv()
+# Access environmental variables
+RABBITMQ_URL = os.getenv("RABBITMQ_URL")
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -82,8 +89,8 @@ def on_open(ws):
 if __name__ == "__main__":
     logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
     app = GateWebSocketApp("wss://api.gateio.ws/ws/v4/",
-                           "YOUR_API_KEY",
-                           "YOUR_API_SECRET",
+                           API_KEY,
+                           API_SECRET,
                            on_open=on_open,
                            on_message=on_message)
     app.run_forever(ping_interval=5)
