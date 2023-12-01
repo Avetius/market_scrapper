@@ -41,6 +41,19 @@ services:
       - influxdb
       - rabbitmq
 
+    gateio-api-app:
+        build:
+          context: ./gateio_api_py
+        environment:
+          - WEBSOCKET_URL=ws://websocket-app:3000
+          - RABBITMQ_URL=amqp://rabbitmq_user:rabbitmq_password@rabbitmq:5672
+          - INFLUXDB_URL=http://influxdb:8086
+          - INFLUXDB_DATABASE=your_database_name
+        ports:
+          - "3000:3000"
+        depends_on:
+          - influxdb
+          - rabbitmq
 volumes:
   rabbitmq-data:
   influxdb-data:

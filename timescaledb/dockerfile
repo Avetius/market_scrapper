@@ -1,0 +1,16 @@
+# Use the official TimescaleDB Docker image as the base image
+FROM timescale/timescaledb:latest-pg12
+
+# Expose the default PostgreSQL port
+EXPOSE 5432
+
+# Environment variables for TimescaleDB initialization
+ENV POSTGRES_USER=myuser
+ENV POSTGRES_PASSWORD=mypassword
+ENV POSTGRES_DB=mydb
+
+# Copy initialization script to the container
+COPY init.sql /docker-entrypoint-initdb.d/
+
+# Run the container
+CMD ["postgres", "-c", "max_connections=100"]
