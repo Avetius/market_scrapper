@@ -7,16 +7,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Access environmental variables
-GATE_HOST = os.getenv("GATE_HOST")
+RABBITMQ_URL = os.getenv("RABBITMQ_URL")
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 # Use the variables as needed
-print(f"GATE_HOST: {GATE_HOST}")
+print(f"RABBITMQ_URL: {RABBITMQ_URL}")
 print(f"API_KEY: {API_KEY}")
 print(f"API_SECRET: {API_SECRET}")
 
 configuration = gate_api.Configuration(
-    host = GATE_HOST, # "https://api.gateio.ws/api/v4",
+    host = RABBITMQ_URL, # "https://api.gateio.ws/api/v4",
     key = API_KEY,
     secret = API_SECRET
 )

@@ -25,7 +25,7 @@ def callback(ch, method, properties, body):
     print(f"Received message: {body.decode()}")
 
 
-def receive_messages(queue='result_queue'):
+def receiveMessages(queue='result_queue'):
     connection = pika.BlockingConnection(pika.ConnectionParameters(RABBITMQ_URL))
     channel = connection.channel()
     channel.queue_declare(queue=queue)
