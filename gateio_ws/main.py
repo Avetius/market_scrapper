@@ -13,7 +13,6 @@ from websocket import WebSocketApp
 
 load_dotenv()
 # Access environmental variables
-RABBITMQ_URL = os.getenv("RABBITMQ_URL")
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 
@@ -22,7 +21,6 @@ logger = logging.getLogger(__name__)
 
 
 class GateWebSocketApp(WebSocketApp):
-
     def __init__(self, url, api_key, api_secret, **kwargs):
         super(GateWebSocketApp, self).__init__(url, **kwargs)
         self._api_key = api_key

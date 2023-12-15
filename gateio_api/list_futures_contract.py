@@ -31,7 +31,10 @@ try:
     with open('list_futures_contract.json', 'w') as json_file:
         json_file.write(json_string)
         
-        
+    data = json.loads(json_string)
+    names = [item['name'] for item in data if "name" in item]
+    print(len(names))
+  
 except GateApiException as ex:
     print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
 except ApiException as e:

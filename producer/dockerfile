@@ -17,5 +17,5 @@ RUN pip install -r requirements.txt
 ENV TZ=Asia/Yerevan
 
 # Run app.py when the container launches
-CMD ["python", "prod.py"]
+CMD ["python", "redis_pub2.py"]
 # CMD ["python", "rabbitRecivmsg.py"]

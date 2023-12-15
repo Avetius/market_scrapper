@@ -29,6 +29,10 @@ try:
     # Save the JSON string to a file
     with open('list_delivery_contracts.json', 'w') as json_file:
         json_file.write(json_string)
+
+    delivery_contracts = json.loads(json_string)
+    names = [item['name'] for item in delivery_contracts if "name" in item]
+    print(len(names))
     
 
 except GateApiException as ex:

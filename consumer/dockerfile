@@ -14,8 +14,8 @@ RUN pip install -r requirements.txt
 # EXPOSE 3030
 
 # Define environment variable
-ENV TZ=Asia/Yerevan
+# ENV TZ=Asia/Yerevan
 
 # Run app.py when the container launches
-CMD ["python", "consum.py"]
+CMD ["python", "redis_sub2.py"]
 # CMD ["python", "rabbitRecivmsg.py"]
