@@ -2,7 +2,7 @@
 import schedule
 import time
 
-from mb import publishMessage
+# from mb import publishMessage
 from api_calls import listFuturesContracts
 
 
@@ -16,3 +16,4 @@ schedule.every(1).minutes.do(updateListFuturesContract)
 while True:
     schedule.run_pending()
     time.sleep(1)
+

@@ -33,10 +33,10 @@ def publish_message(channel, message):
         # Publish the message to the specified channel
         r.publish(channel, message)
         print(f" [x] Sent: {message} to channel: {channel}")
-        # return 0
+        return 0
     except Exception as e:
         print(f"Sending message failed: {e}")
-        # return 1
+        return 1
     # return 1
 
 

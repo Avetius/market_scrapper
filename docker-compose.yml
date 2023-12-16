@@ -93,9 +93,17 @@ services:
   #     - mynetwork
   #   # cpuset: '0'
 
+  # cron:
+  #   build:
+  #     context: ./cronjobs
+  #   volumes:
+  #     - cronjob_data:/usr/src/app
+
+
 volumes:
   redis-data:
   timescaledb_data:
+  # cronjob_data:
 
 networks:
   mynetwork:

@@ -33,7 +33,7 @@ try:
     delivery_contracts = json.loads(json_string)
     names = [item['name'] for item in delivery_contracts if "name" in item]
     print(len(names))
-    
+
 
 except GateApiException as ex:
     print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
