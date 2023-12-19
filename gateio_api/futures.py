@@ -1,6 +1,7 @@
 from __future__ import print_function
 import os
 import json
+from datetime import datetime
 import gate_api
 from gate_api.exceptions import ApiException, GateApiException
 from dotenv import load_dotenv
@@ -36,8 +37,6 @@ configuration = gate_api.Configuration(
 api_client = gate_api.ApiClient(configuration)
 # Create an instance of the API class
 api_instance = gate_api.FuturesApi(api_client)
-# settle = 'usdt' # str | Settle currency
-# contract = 'BTC_USDT' # str | Futures contract
 
 def serialize_response(obj):
     if isinstance(obj, gate_api.Contract or 
@@ -51,8 +50,10 @@ def list_futures_contracts(settle='usdt'):
     try:
         # Get a single contract
         api_response = api_instance.list_futures_contracts(settle)
-        print(api_response)
-        return api_response
+        json_string = json.dumps(api_response, indent=2, default=serialize_response)
+        # list_futures_contracts=json.loads(json_string)
+        # print(api_response)
+        return json_string
     except GateApiException as ex:
         print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
     except ApiException as e:

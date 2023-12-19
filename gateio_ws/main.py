@@ -1,94 +1,82 @@
 # !/usr/bin/env python
 # coding: utf-8
 import os
-import hashlib
-import hmac
-import json
-import logging
-import time
+# import logging
+import asyncio
+# import schedule
+# import time
+from pubsub import subscribe_channel, wait_for_redis
 from dotenv import load_dotenv
-
-# pip install -U websocket_client
-from websocket import WebSocketApp
+# from gate_ws import Configuration, Connection, WebSocketResponse
+# from gate_ws.spot import SpotPublicTradeChannel
+# from gate_ws.futures import FuturesPublicTradeChannel
 
 load_dotenv()
 # Access environmental variables
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO)
+# logger = logging.getLogger(__name__)
+
+async def my_callback(conn, response):
+    print(response.result)
+    await asyncio.sleep(1)
+
+print(API_KEY)
+
+# logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
+
+async def main():
+    try:
+        await wait_for_redis()
+        print("Redis is available sub2!")
+        result = subscribe_channel('futureContracts')
+        # print("trading pairs reciever >>> {result}")
+        trading_pairs = [item['name'] for item in result if "name" in item]
+        print(f"trading pairs reciever >>> {trading_pairs}")
+        # provide default callback for all channels
+        # spot_conn = Connection(Configuration(app='spot')) # lambda c, r: print(r.result)
+        # futures_conn = Connection(Configuration(app='futures', settle='usdt', test_net=False))
+        # # default callback will be used if callback not provided when initializing channels
+        # spotchannel = SpotPublicTradeChannel(spot_conn, my_callback)
+        # spotchannel.subscribe(trading_pairs) # ["GT_USDT"] 
+
+        # futurechannel = FuturesPublicTradeChannel(futures_conn, my_callback) # lambda c, r: print(r.result)
+        # futurechannel.subscribe(trading_pairs) # ["BTC_USDT"]
+
+        # # start both connection
+        # await asyncio.gather(spot_conn.run(), futures_conn.run())
+    except TimeoutError as e:
+        print(f"Error: {e}")
+        # Handle the timeout error
+
+    await asyncio.sleep(1)
 
 
-class GateWebSocketApp(WebSocketApp):
-    def __init__(self, url, api_key, api_secret, **kwargs):
-        super(GateWebSocketApp, self).__init__(url, **kwargs)
-        self._api_key = api_key
-        self._api_secret = api_secret
+# if __name__ == "__main__":
+#     try:
+#         wait_for_redis()
+#         print("Redis is available sub2!")
+#         result = subscribe_channel('trading_pairs')
+#         print(result)
+#     except TimeoutError as e:
+#         print(f"Error: {e}")
+#         # Handle the timeout error
 
-    def _send_ping(self, interval, event):
-        while not event.wait(interval):
-            self.last_ping_tm = time.time()
-            if self.sock:
-                try:
-                    self.sock.ping()
-                except Exception as ex:
-                    logger.warning("send_ping routine terminated: {}".format(ex))
-                    break
-                try:
-                    self._request("spot.ping", auth_required=False)
-                except Exception as e:
-                    raise e
-
-    def _request(self, channel, event=None, payload=None, auth_required=True):
-        current_time = int(time.time())
-        data = {
-            "time": current_time,
-            "channel": channel,
-            "event": event,
-            "payload": payload,
-        }
-        if auth_required:
-            message = 'channel=%s&event=%s&time=%d' % (channel, event, current_time)
-            data['auth'] = {
-                "method": "api_key",
-                "KEY": self._api_key,
-                "SIGN": self.get_sign(message),
-            }
-        data = json.dumps(data)
-        logger.info('request: %s', data)
-        self.send(data)
-
-    def get_sign(self, message):
-        h = hmac.new(self._api_secret.encode("utf8"), message.encode("utf8"), hashlib.sha512)
-        return h.hexdigest()
-
-    def subscribe(self, channel, payload=None, auth_required=True):
-        self._request(channel, "subscribe", payload, auth_required)
-
-    def unsubscribe(self, channel, payload=None, auth_required=True):
-        self._request(channel, "unsubscribe", payload, auth_required)
+if __name__ == '__main__':
+    print("STARTING WEBSOCKET")
+    loop = asyncio.get_event_loop()
+    try:
+        loop.run_until_complete(main())
+    finally:
+        loop.close()
 
 
-def on_message(ws, message):
-    # type: (GateWebSocketApp, str) -> None
-    # handle whatever message you received
-    # logger.info("message received from server: {}".format(message))
-    print(message)
+# # Schedule the job to run every minute
+# schedule.every(1).minutes.do(updateListFuturesContract)
 
+# while True:
+#     schedule.run_pending()
+#     time.sleep(1)
 
-def on_open(ws):
-    # type: (GateWebSocketApp) -> None
-    # subscribe to channels interested
-    logger.info('websocket connected')
-    ws.subscribe("spot.trades", ['BTC_USDT'], False)
-
-
-if __name__ == "__main__":
-    logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
-    app = GateWebSocketApp("wss://api.gateio.ws/ws/v4/",
-                           API_KEY,
-                           API_SECRET,
-                           on_open=on_open,
-                           on_message=on_message)
-    app.run_forever(ping_interval=5)

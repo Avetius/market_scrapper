@@ -1,5 +1,5 @@
 import redis
-import time
+import asyncio
 
 
 def callback(message):
@@ -40,41 +40,40 @@ def publish_message(channel, message):
     # return 1
 
 
-def wait_for_redis(host='redis', port=6379, timeout=120):
-    start_time = time.time()
+async def wait_for_redis(host='redis', port=6379, timeout=10):
+    attempts = 0
     while True:
         try:
-            time.sleep(1)
+            # time.sleep(1)
             # Attempt to connect to Redis
             connection = redis.StrictRedis(host=host, port=port, decode_responses=True)
             connection.ping()
-
             # If connection succeeds, break out of the loop
             break
         except redis.ConnectionError as e:
             # Handle the connection error if needed
             print(f"Error connecting to Redis: {e}")
 
+        await asyncio.sleep(1)
+        attempts=attempts+1
         # Check if the timeout has been reached
-        if time.time() - start_time > timeout:
+        if attempts > 60:
             raise TimeoutError("Timeout waiting for Redis to become available")
-
-        # Sleep for a short interval before trying again
-        time.sleep(1)
 
 
 # Example usage:
-if __name__ == '__main__':
-    try:
-        wait_for_redis()
-        print("Redis is available sub2!")
-        channel_to_subscribe = 'example_channel'
-        subscribe_channel(channel_to_subscribe)
-        timestamp = str(int(time.time()))
-        # redis_client.zadd(key, {value: timestamp})
-        message_to_send = timestamp + " Hello, Redis Pub/Sub!"
-        publish_message(channel_to_publish, str(message_to_send))
+# if __name__ == '__main__':
+#     try:
+#         wait_for_redis()
+#         print("Redis is available sub2!")
+#         channel_to_subscribe = 'example_channel'
+#         channel_to_publish = 'example_channel'
+#         subscribe_channel(channel_to_subscribe)
+#         timestamp = str(int(time.time()))
+#         # redis_client.zadd(key, {value: timestamp})
+#         message_to_send = timestamp + " Hello, Redis Pub/Sub!"
+#         publish_message(channel_to_publish, str(message_to_send))
         
-    except TimeoutError as e:
-        print(f"Error: {e}")
-        # Handle the timeout error
+#     except TimeoutError as e:
+#         print(f"Error: {e}")
+#         # Handle the timeout error

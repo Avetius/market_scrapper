@@ -11,9 +11,8 @@ services:
       - REDIS_REQUIREPASS=another_password
     volumes:
       - redis-data:/data
-    networks:
-      - mynetwork
-    # cpuset: '2'
+    # networks:
+    #   - mynetwork
 
   # timescaledb:
   #   image: timescale/timescaledb:latest-pg13
@@ -29,69 +28,32 @@ services:
   #   networks:
   #     - mynetwork
 
-  # gateio-api:
-  #   build:
-  #     context: ./gateio_api
-  #   environment:
-  #     - WS_URL=ws://gateio-ws:3000
-  #     - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
-  #     - INFLUXDB_URL=http://influxdb:8086
-  #     - INFLUXDB_DATABASE=your_database_name
-  #   ports:
-  #     - "3000:3000"
-  #   depends_on:
-  #     - influxdb
-  #     - rabbitmq
-  #     - timescaledb
-  #   networks:
-  #     - mynetwork
+  gateio-api:
+    build:
+      context: ./gateio_api
+    # environment:
+    #   - WS_URL=ws://gateio-ws:3000
+    #   - INFLUXDB_URL=http://influxdb:8086
+    #   - INFLUXDB_DATABASE=your_database_name
+    ports:
+      - "3001:3001"
+    volumes:
+      - api_data:/usr/src/app
+    # networks:
+    #   - mynetwork
 
   gateio-ws:
     build:
       context: ./gateio_ws
     environment:
-      - API_URL=ws://gateio-api:3000
-      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
+      - API_URL=http://gateio-api:3001
       - TIMESCALE_DB=gateio
     ports:
-      - "3001:3001"
-    depends_on:
-      - influxdb
-      - rabbitmq
-      - timescaledb
-    networks:
-      - mynetwork
-
-  # consumer1:
-  #   build:
-  #     context: ./consumer
-  #   ports:
-  #     - "3033:3033"
-  #   environment:
-  #     - SERVICE_NAME=service1
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
-
-  # consumer2:
-  #   build:
-  #     context: ./consumer
-  #   ports:
-  #     - "3034:3034"
-  #   environment:
-  #     - SERVICE_NAME=service2
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
-
-  # producer:
-  #   build:
-  #     context: ./producer
-  #   ports:
-  #     - "3333:3333"
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
+      - "3003:3003"
+    volumes:
+    - ws_data:/usr/src/app
+    # networks:
+    #   - mynetwork
 
   # cron:
   #   build:
@@ -102,9 +64,11 @@ services:
 
 volumes:
   redis-data:
-  timescaledb_data:
+  ws_data:
+  api_data:
+  # timescaledb_data:
   # cronjob_data:
 
-networks:
-  mynetwork:
-    driver: bridge
+# networks:
+#   mynetwork:
+#     driver: bridge
