@@ -1,15 +1,16 @@
 import redis
 import asyncio
 
+host='localhost'
+port=6379
 
 def callback(message):
     print(f" [x] data: {message['data']} channel: {message['channel']}")
 
-
 def subscribe_channel(channel):
     try:
         # Connect to the local Redis server
-        r = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
+        r = redis.Redis(host=host, port=port, decode_responses=True)
 
         # Create a new pubsub instance and subscribe to the specified channel
         pubsub = r.pubsub()
@@ -19,6 +20,7 @@ def subscribe_channel(channel):
 
         # Start listening for messages
         for message in pubsub.listen():
+            callback(message)
             if message['type'] == 'message':
                 callback(message)
 
@@ -29,7 +31,7 @@ def subscribe_channel(channel):
 def publish_message(channel, message):
     try:
         # Connect to the local Redis server
-        r = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
+        r = redis.Redis(host=host, port=port, decode_responses=True)
         # Publish the message to the specified channel
         r.publish(channel, message)
         # print(f" [x] Sent: {message} to channel: {channel}")
@@ -40,14 +42,13 @@ def publish_message(channel, message):
         return 1
     # return 1
 
-
-async def wait_for_redis(host='redis', port=6379, timeout=10):
+async def wait_for_redis(host=host, port=port):
     attempts = 0
     while True:
         try:
             # time.sleep(1)
             # Attempt to connect to Redis
-            connection = redis.StrictRedis(host=host, port=port, decode_responses=True)
+            connection = redis.Redis(host=host, port=port, decode_responses=True)
             connection.ping()
             # If connection succeeds, break out of the loop
             break
@@ -61,7 +62,6 @@ async def wait_for_redis(host='redis', port=6379, timeout=10):
         if attempts > 60:
             raise TimeoutError("Timeout waiting for Redis to become available")
 
-
 # Example usage:
 # if __name__ == '__main__':
 #     try:
@@ -74,7 +74,7 @@ async def wait_for_redis(host='redis', port=6379, timeout=10):
 #         # redis_client.zadd(key, {value: timestamp})
 #         message_to_send = timestamp + " Hello, Redis Pub/Sub!"
 #         publish_message(channel_to_publish, str(message_to_send))
-        
+
 #     except TimeoutError as e:
 #         print(f"Error: {e}")
 #         # Handle the timeout error

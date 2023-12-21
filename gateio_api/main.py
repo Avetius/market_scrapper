@@ -3,6 +3,7 @@ import asyncio
 import json
 
 from pubsub import publish_message, wait_for_redis
+from helper import list_to_string 
 from futures import list_futures_contracts
 
 async def main():
@@ -14,8 +15,8 @@ async def main():
             resultlist =json.loads(json_string)
             names = [item['name'] for item in resultlist if "name" in item]
             print(F"Names LENGTH >>> {len(names)}")
-            publish_message(json_string, 'futureContracts')
-            await asyncio.sleep(60)
+            publish_message("futureContracts", list_to_string(names))
+            await asyncio.sleep(10)
         except TimeoutError as e:
             print(f"Error: {e}")
             # Handle the timeout error

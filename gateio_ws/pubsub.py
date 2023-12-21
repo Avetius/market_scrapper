@@ -1,26 +1,29 @@
 import redis
 import asyncio
 
+host='localhost'
+port=6379
 
 def callback(message):
-    print(f" [x] data: {message['data']} channel: {message['channel']}")
-
+    print(f" [x] data: {message['data']} ||| channel: {message['channel']}")
+    return message['data']
 
 def subscribe_channel(channel):
     try:
         # Connect to the local Redis server
-        r = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
+        r = redis.Redis(host=host, port=port, decode_responses=True)
 
         # Create a new pubsub instance and subscribe to the specified channel
         pubsub = r.pubsub()
         pubsub.subscribe(channel)
 
         print(f' [*] Subscribed to channel: {channel}. Waiting for messages.')
-
+        
         # Start listening for messages
         for message in pubsub.listen():
+            callback(message)
             if message['type'] == 'message':
-                callback(message)
+                return callback(message)
 
     except Exception as e:
         print(f"Getting message failed: {e}")
@@ -29,10 +32,11 @@ def subscribe_channel(channel):
 def publish_message(channel, message):
     try:
         # Connect to the local Redis server
-        r = redis.StrictRedis(host='redis', port=6379, decode_responses=True)
+        r = redis.Redis(host=host, port=port, decode_responses=True)
         # Publish the message to the specified channel
         r.publish(channel, message)
-        print(f" [x] Sent: {message} to channel: {channel}")
+        # print(f" [x] Sent: {message} to channel: {channel}")
+        print(f" [x] Sent: message to channel: {channel}")
         return 0
     except Exception as e:
         print(f"Sending message failed: {e}")
@@ -40,13 +44,13 @@ def publish_message(channel, message):
     # return 1
 
 
-async def wait_for_redis(host='redis', port=6379, timeout=10):
+async def wait_for_redis(host=host, port=port):
     attempts = 0
     while True:
         try:
             # time.sleep(1)
             # Attempt to connect to Redis
-            connection = redis.StrictRedis(host=host, port=port, decode_responses=True)
+            connection = redis.Redis(host=host, port=port, decode_responses=True)
             connection.ping()
             # If connection succeeds, break out of the loop
             break

@@ -1,59 +1,41 @@
 version: '3.8'
 
 services:
+  # gateio-ws:
+  #   build:
+  #     context: ./gateio_ws
+  #   environment:
+  #     - TIMESCALE_DB=gateio
+  #   ports:
+  #     - "3003:3003"
+  #   networks:
+  #     - mynetwork
+  #   # volumes:
+  #   # - ws_data:/usr/src/app
+
   redis:
     image: "redis:latest"
     ports:
       - "6379:6379"
-    environment:
-      - REDIS_REPLICATION_MODE=master
-      - REDIS_PASSWORD=your_password
-      - REDIS_REQUIREPASS=another_password
+    # environment:
+    #   - REDIS_REPLICATION_MODE=master
+    #   - REDIS_PASSWORD=your_password
+    #   - REDIS_REQUIREPASS=another_password
     volumes:
       - redis-data:/data
-    # networks:
-    #   - mynetwork
-
-  # timescaledb:
-  #   image: timescale/timescaledb:latest-pg13
-  #   container_name: my_timescaledb
-  #   environment:
-  #     POSTGRES_DB: gateio
-  #     POSTGRES_USER: myuser
-  #     POSTGRES_PASSWORD: mypassword
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - timescaledb_data:/var/lib/postgresql/data
-  #   networks:
-  #     - mynetwork
+    networks:
+      - mynetwork
 
   gateio-api:
     build:
       context: ./gateio_api
-    # environment:
-    #   - WS_URL=ws://gateio-ws:3000
-    #   - INFLUXDB_URL=http://influxdb:8086
-    #   - INFLUXDB_DATABASE=your_database_name
     ports:
       - "3001:3001"
-    volumes:
-      - api_data:/usr/src/app
-    # networks:
-    #   - mynetwork
+    networks:
+      - mynetwork
+    # volumes:
+    #   - api_data:/usr/src/app
 
-  gateio-ws:
-    build:
-      context: ./gateio_ws
-    environment:
-      - API_URL=http://gateio-api:3001
-      - TIMESCALE_DB=gateio
-    ports:
-      - "3003:3003"
-    volumes:
-    - ws_data:/usr/src/app
-    # networks:
-    #   - mynetwork
 
   # cron:
   #   build:
@@ -64,11 +46,17 @@ services:
 
 volumes:
   redis-data:
-  ws_data:
-  api_data:
+  # ws_data:
+  # api_data:
   # timescaledb_data:
   # cronjob_data:
 
-# networks:
-#   mynetwork:
-#     driver: bridge
+networks:
+  mynetwork:
+    driver: bridge
+  network1:
+    driver: bridge
+  network2:
+    driver: bridge
+  network3:
+    driver: bridge
