@@ -13,8 +13,9 @@ api_instance = gate_api.DeliveryApi(api_client)
 settle = 'usdt' # str | Settle currency
 
 # Define a custom serialization function for UniCurrency objects
-def serialize_delivery_contracts(obj):
-    if isinstance(obj, gate_api.DeliveryContract or 
+def serialize_response(obj):
+    if isinstance(obj, gate_api.Contract or 
+                  gate_api.DeliveryContract or 
                   gate_api.UniCurrency):
         # Convert UniCurrency object to a dictionary
         return obj.to_dict()
@@ -24,7 +25,7 @@ def serialize_delivery_contracts(obj):
 try:
     # List all futures contracts
     list_delivery_contracts = api_instance.list_delivery_contracts(settle)
-    json_string = json.dumps(list_delivery_contracts, indent=2, default=serialize_delivery_contracts) # , default=serialize_delivery_contracts
+    json_string = json.dumps(list_delivery_contracts, indent=2, default=serialize_response) # , default=serialize_delivery_contracts
 
     # Save the JSON string to a file
     with open('list_delivery_contracts.json', 'w') as json_file:
@@ -33,7 +34,7 @@ try:
     delivery_contracts = json.loads(json_string)
     names = [item['name'] for item in delivery_contracts if "name" in item]
     print(len(names))
-    
+
 
 except GateApiException as ex:
     print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))

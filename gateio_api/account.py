@@ -1,5 +1,7 @@
+import os
 import gate_api
 from gate_api.exceptions import ApiException, GateApiException
+from dotenv import load_dotenv
 # Defining the host is optional and defaults to https://api.gateio.ws/api/v4
 # See configuration.py for a list of all supported configuration parameters.
 # The client must configure the authentication and authorization parameters
@@ -7,11 +9,14 @@ from gate_api.exceptions import ApiException, GateApiException
 # Examples for each auth method are provided below, use the example that
 # satisfies your auth use case.
 
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 # Configure APIv4 key authorization
 configuration = gate_api.Configuration(
     host = "https://api.gateio.ws/api/v4",
-    key = "277b561d99678f9dfff978ae65b8ce36",
-    secret = "4f5fef188468aec17c36e7f46a319a5cc664fd0ab6681d3c8028ae2acb88dbbe"
+    key = API_KEY,
+    secret = API_SECRET
 )
 
 api_client = gate_api.ApiClient(configuration)

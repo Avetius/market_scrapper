@@ -1,102 +1,62 @@
 version: '3.8'
 
 services:
+  # gateio-ws:
+  #   build:
+  #     context: ./gateio_ws
+  #   environment:
+  #     - TIMESCALE_DB=gateio
+  #   ports:
+  #     - "3003:3003"
+  #   networks:
+  #     - mynetwork
+  #   # volumes:
+  #   # - ws_data:/usr/src/app
+
   redis:
     image: "redis:latest"
     ports:
       - "6379:6379"
-    environment:
-      - REDIS_REPLICATION_MODE=master
-      - REDIS_PASSWORD=your_password
-      - REDIS_REQUIREPASS=another_password
+    # environment:
+    #   - REDIS_REPLICATION_MODE=master
+    #   - REDIS_PASSWORD=your_password
+    #   - REDIS_REQUIREPASS=another_password
     volumes:
       - redis-data:/data
     networks:
       - mynetwork
-    # cpuset: '2'
 
-  # timescaledb:
-  #   image: timescale/timescaledb:latest-pg13
-  #   container_name: my_timescaledb
-  #   environment:
-  #     POSTGRES_DB: gateio
-  #     POSTGRES_USER: myuser
-  #     POSTGRES_PASSWORD: mypassword
-  #   ports:
-  #     - "5432:5432"
-  #   volumes:
-  #     - timescaledb_data:/var/lib/postgresql/data
-  #   networks:
-  #     - mynetwork
-
-  # gateio-api:
-  #   build:
-  #     context: ./gateio_api
-  #   environment:
-  #     - WS_URL=ws://gateio-ws:3000
-  #     - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
-  #     - INFLUXDB_URL=http://influxdb:8086
-  #     - INFLUXDB_DATABASE=your_database_name
-  #   ports:
-  #     - "3000:3000"
-  #   depends_on:
-  #     - influxdb
-  #     - rabbitmq
-  #     - timescaledb
-  #   networks:
-  #     - mynetwork
-
-  gateio-ws:
+  gateio-api:
     build:
-      context: ./gateio_ws
-    environment:
-      - API_URL=ws://gateio-api:3000
-      - RABBITMQ_URL=amqp://myuser:mypassword@rabbitmq:5672
-      - TIMESCALE_DB=gateio
+      context: ./gateio_api
     ports:
       - "3001:3001"
-    depends_on:
-      - influxdb
-      - rabbitmq
-      - timescaledb
     networks:
       - mynetwork
+    # volumes:
+    #   - api_data:/usr/src/app
 
-  # consumer1:
-  #   build:
-  #     context: ./consumer
-  #   ports:
-  #     - "3033:3033"
-  #   environment:
-  #     - SERVICE_NAME=service1
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
 
-  # consumer2:
+  # cron:
   #   build:
-  #     context: ./consumer
-  #   ports:
-  #     - "3034:3034"
-  #   environment:
-  #     - SERVICE_NAME=service2
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
+  #     context: ./cronjobs
+  #   volumes:
+  #     - cronjob_data:/usr/src/app
 
-  # producer:
-  #   build:
-  #     context: ./producer
-  #   ports:
-  #     - "3333:3333"
-  #   networks:
-  #     - mynetwork
-  #   # cpuset: '0'
 
 volumes:
   redis-data:
-  timescaledb_data:
+  # ws_data:
+  # api_data:
+  # timescaledb_data:
+  # cronjob_data:
 
 networks:
   mynetwork:
+    driver: bridge
+  network1:
+    driver: bridge
+  network2:
+    driver: bridge
+  network3:
     driver: bridge
