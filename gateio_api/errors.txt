@@ -1,0 +1,41 @@
+INFO:websocket:Websocket connected
+market_scrapper-gateio-ws-1   | Exception in thread Thread-1:
+market_scrapper-gateio-ws-1   | Traceback (most recent call last):
+market_scrapper-gateio-ws-1   |   File "/usr/local/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+market_scrapper-gateio-ws-1   | INFO:__main__:websocket connected
+market_scrapper-gateio-ws-1   | INFO:__main__:request: {"time": 1701472598, "channel": "spot.trades", "event": "subscribe", "payload": ["BTC_USDT"]}
+market_scrapper-gateio-ws-1   |     self.run()
+market_scrapper-gateio-ws-1   |   File "/usr/local/lib/python3.8/threading.py", line 870, in run
+market_scrapper-gateio-ws-1   |     self._target(*self._args, **self._kwargs)
+market_scrapper-gateio-ws-1   | TypeError: _send_ping() missing 2 required positional arguments: 'interval' and 'event'
+
+
+RABBITMQ_URL: amqp://myuser:mypassword@rabbitmq:5672
+market_scrapper-gateio-api-1  | GATE_HOST: https://api.gateio.ws/api/v4
+market_scrapper-gateio-api-1  | API_KEY: 277b561d99678f9dfff978ae65b8ce36
+market_scrapper-gateio-api-1  | API_SECRET: 4f5fef188468aec17c36e7f46a319a5cc664fd0ab6681d3c8028ae2acb88dbbe
+market_scrapper-gateio-api-1  | >>>>>>>>>>>>> futures contract list recieved! <<<<<<<<<<<
+market_scrapper-gateio-api-1  | Traceback (most recent call last):
+market_scrapper-gateio-api-1  |   File "app.py", line 17, in <module>
+market_scrapper-gateio-api-1  |     schedule.run_pending()
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/schedule/__init__.py", line 822, in run_pending
+market_scrapper-gateio-api-1  |     default_scheduler.run_pending()
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/schedule/__init__.py", line 100, in run_pending
+market_scrapper-gateio-api-1  |     self._run_job(job)
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/schedule/__init__.py", line 172, in _run_job
+market_scrapper-gateio-api-1  |     ret = job.run()
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/schedule/__init__.py", line 693, in run
+market_scrapper-gateio-api-1  |     ret = self.job_func()
+market_scrapper-gateio-api-1  |   File "app.py", line 11, in updateListFuturesContract
+market_scrapper-gateio-api-1  |     publishMessage(result, 'futureContracts')
+market_scrapper-gateio-api-1  |   File "/usr/src/app/mb.py", line 15, in publishMessage
+market_scrapper-gateio-api-1  |     connection = pika.BlockingConnection(pika.ConnectionParameters(RABBITMQ_URL))
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 360, in __init__
+market_scrapper-gateio-api-1  |     self._impl = self._create_connection(parameters, _impl_class)
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/pika/adapters/blocking_connection.py", line 451, in _create_connection
+market_scrapper-gateio-api-1  |     raise self._reap_last_connection_workflow_error(error)
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/site-packages/pika/adapters/utils/selector_ioloop_adapter.py", line 565, in _resolve
+market_scrapper-gateio-api-1  |     result = socket.getaddrinfo(self._host, self._port, self._family,
+market_scrapper-gateio-api-1  |   File "/usr/local/lib/python3.8/socket.py", line 918, in getaddrinfo
+market_scrapper-gateio-api-1  |     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+market_scrapper-gateio-api-1  | socket.gaierror: [Errno -2] Name or service not known
