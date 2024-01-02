@@ -51,9 +51,10 @@ def list_futures_contracts(settle='usdt'):
         # Get a single contract
         api_response = api_instance.list_futures_contracts(settle)
         json_string = json.dumps(api_response, indent=2, default=serialize_response)
-        # list_futures_contracts=json.loads(json_string)
-        # print(api_response)
-        return json_string
+        list_futures_contracts=json.loads(json_string)
+        with open("list_futures_contracts.json", 'w') as file:
+            json.dump(list_futures_contracts, file, indent=4)
+        return list_futures_contracts
     except GateApiException as ex:
         print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
     except ApiException as e:

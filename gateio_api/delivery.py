@@ -1,5 +1,6 @@
 from __future__ import print_function
 import os
+import json
 import gate_api
 from gate_api.exceptions import ApiException, GateApiException
 from dotenv import load_dotenv
@@ -23,12 +24,21 @@ api_client = gate_api.ApiClient(configuration)
 # Create an instance of the API class
 api_instance = gate_api.DeliveryApi(api_client)
 
-def list_delivery_contracts(contract,settle='usdt'):
+def serialize_response(obj):
+    if isinstance(obj, gate_api.DeliveryContract): # gate_api.DeliveryContract
+        # Convert UniCurrency object to a dictionary
+        return obj.to_dict()
+    raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
+
+def list_delivery_contracts(settle='usdt'):
     try:
         # Get a single contract
-        api_response = api_instance.get_delivery_contract(settle, contract)
-        print(api_response)
-        return api_response
+        api_response = api_instance.list_delivery_contracts(settle)
+        json_string = json.dumps(api_response, indent=2, default=serialize_response)
+        list_delivery_contracts=json.loads(json_string)
+        with open("list_delivery_contracts.json", 'w') as file:
+            json.dump(list_delivery_contracts, file, indent=4)
+        return list_delivery_contracts
     except GateApiException as ex:
         print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
     except ApiException as e:

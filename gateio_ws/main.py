@@ -44,9 +44,13 @@ async def main():
 
         futurechannel = FuturesPublicTradeChannel(futures_conn, my_callback) # lambda c, r: print(r.result)
         futurechannel.subscribe(trading_pairs) # ["BTC_USDT"]
+        futurechannel.unsubscribe(["BTC_USDT", "ETH_USDT"])
 
         # start both connection
-        await asyncio.gather(spot_conn.run(), futures_conn.run())
+        await asyncio.gather(
+            spot_conn.run(),
+            futures_conn.run()
+        )
     except TimeoutError as e:
         print(f"Error: {e}")
         # Handle the timeout error

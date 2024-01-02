@@ -31,3 +31,4 @@ except GateApiException as ex:
     print("Gate api exception, label: %s, message: %s\n" % (ex.label, ex.message))
 except ApiException as e:
     print("Exception when calling AccountApi->get_account_detail: %s\n" % e)
+

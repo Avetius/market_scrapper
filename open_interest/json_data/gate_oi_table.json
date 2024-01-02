@@ -1,0 +1,3076 @@
+[
+  {
+    "symbol": "BIGTIME_USDT.Y",
+    "oi": [
+      {
+        "value": 2147896.44,
+        "update": 1703950831024
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "JASMY_USDT.Y",
+    "oi": [
+      {
+        "value": 467262.610495,
+        "update": 1703950831042
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STRAX_USDT.Y",
+    "oi": [
+      {
+        "value": 82129.50200000001,
+        "update": 1703950812758
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ZIL_USDT.Y",
+    "oi": [
+      {
+        "value": 105192.5392,
+        "update": 1703950830943
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GMT_USDT.Y",
+    "oi": [
+      {
+        "value": 1301406.8831999998,
+        "update": 1703950834179
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OGN_USDT.Y",
+    "oi": [
+      {
+        "value": 97489.88339999999,
+        "update": 1703950830920
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MANA_USDT.Y",
+    "oi": [
+      {
+        "value": 466448.3609,
+        "update": 1703950834195
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "EGLD_USDT.Y",
+    "oi": [
+      {
+        "value": 357263.27999999997,
+        "update": 1703950824745
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DODO_USDT.Y",
+    "oi": [
+      {
+        "value": 90599.6685,
+        "update": 1703950831054
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CEL_USDT.Y",
+    "oi": [
+      {
+        "value": 63356.789600000004,
+        "update": 1703950831145
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SOL_USDT.Y",
+    "oi": [
+      {
+        "value": 9761046.762,
+        "update": 1703950834154
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XVS_USDT.Y",
+    "oi": [
+      {
+        "value": 103869.9711,
+        "update": 1703950834265
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FTT_USDT.Y",
+    "oi": [
+      {
+        "value": 3456153.086496,
+        "update": 1703950834140
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WOO_USDT.Y",
+    "oi": [
+      {
+        "value": 155718.7594,
+        "update": 1703950831107
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BEAMX_USDT.Y",
+    "oi": [
+      {
+        "value": 164972.806,
+        "update": 1703950803832
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ACH_USDT.Y",
+    "oi": [
+      {
+        "value": 284134.14678,
+        "update": 1703950831053
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TWT_USDT.Y",
+    "oi": [
+      {
+        "value": 67570.37220000001,
+        "update": 1703950800800
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VOXEL_USDT.Y",
+    "oi": [
+      {
+        "value": 93684.864,
+        "update": 1703950834324
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TLM_USDT.Y",
+    "oi": [
+      {
+        "value": 55043.4822,
+        "update": 1703950834183
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LINK_USDT.Y",
+    "oi": [
+      {
+        "value": 3343384.137,
+        "update": 1703950830922
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PYR_USDT.Y",
+    "oi": [
+      {
+        "value": 55176.691199999994,
+        "update": 1703950822313
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AMP_USDT.Y",
+    "oi": [
+      {
+        "value": 29062.595,
+        "update": 1703950812561
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "QNT_USDT.Y",
+    "oi": [
+      {
+        "value": 111393.1323,
+        "update": 1703950824700
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CVX_USDT.Y",
+    "oi": [
+      {
+        "value": 63802.2047,
+        "update": 1703950822089
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "POGAI_USDT.Y",
+    "oi": [
+      {
+        "value": 1087501.5388,
+        "update": 1703950812766
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GAL_USDT.Y",
+    "oi": [
+      {
+        "value": 135220.62180000002,
+        "update": 1703950812683
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ADA_USDT.Y",
+    "oi": [
+      {
+        "value": 2347077.584,
+        "update": 1703950834134
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BEL_USDT.Y",
+    "oi": [
+      {
+        "value": 109272.60680000001,
+        "update": 1703950830995
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ARKM_USDT.Y",
+    "oi": [
+      {
+        "value": 229519.7268,
+        "update": 1703950834093
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ENJ_USDT.Y",
+    "oi": [
+      {
+        "value": 155162.4374,
+        "update": 1703950834285
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GARI_USDT.Y",
+    "oi": [
+      {
+        "value": 45797.778600000005,
+        "update": 1703950815964
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ORDI_USDT.Y",
+    "oi": [
+      {
+        "value": 7699278.199999999,
+        "update": 1703950834219
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RVN_USDT.Y",
+    "oi": [
+      {
+        "value": 105633.9984,
+        "update": 1703950795170
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DENT_USDT.Y",
+    "oi": [
+      {
+        "value": 57078.609000000004,
+        "update": 1703950783065
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TRX_USDT.Y",
+    "oi": [
+      {
+        "value": 403485.273,
+        "update": 1703950807022
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WEMIX_USDT.Y",
+    "oi": [
+      {
+        "value": 836119.9402,
+        "update": 1703950834341
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DOGE_USDT.Y",
+    "oi": [
+      {
+        "value": 7943187.356000001,
+        "update": 1703950834171
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KAVA_USDT.Y",
+    "oi": [
+      {
+        "value": 104030.6742,
+        "update": 1703950803694
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BADGER_USDT.Y",
+    "oi": [
+      {
+        "value": 235812.6375,
+        "update": 1703950812776
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MAV_USDT.Y",
+    "oi": [
+      {
+        "value": 49340.334,
+        "update": 1703950807165
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SFP_USDT.Y",
+    "oi": [
+      {
+        "value": 16082.419600000001,
+        "update": 1703950791765
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ORBS_USDT.Y",
+    "oi": [
+      {
+        "value": 92719.17480000001,
+        "update": 1703950834102
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BNB_USDT.Y",
+    "oi": [
+      {
+        "value": 9980348.519900002,
+        "update": 1703950831051
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LOOKS_USDT.Y",
+    "oi": [
+      {
+        "value": 135552.478,
+        "update": 1703950812569
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HT_USDT.Y",
+    "oi": [
+      {
+        "value": 291502.14499999996,
+        "update": 1703950834384
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "QTUM_USDT.Y",
+    "oi": [
+      {
+        "value": 189156.344,
+        "update": 1703950812657
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GRT_USDT.Y",
+    "oi": [
+      {
+        "value": 395026.4092,
+        "update": 1703950831125
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TOKEN_USDT.Y",
+    "oi": [
+      {
+        "value": 228281.61800000002,
+        "update": 1703950830929
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LIT_USDT.Y",
+    "oi": [
+      {
+        "value": 68742.30260000001,
+        "update": 1703950807145
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BENQI_USDT.Y",
+    "oi": [
+      {
+        "value": 38116,
+        "update": 1703950812578
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RACA_USDT.Y",
+    "oi": [
+      {
+        "value": 240457.9608,
+        "update": 1703950831122
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RPL_USDT.Y",
+    "oi": [
+      {
+        "value": 21485.0556,
+        "update": 1703950812793
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SUPER_USDT.Y",
+    "oi": [
+      {
+        "value": 98990.919,
+        "update": 1703950831178
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "IMX_USDT.Y",
+    "oi": [
+      {
+        "value": 1015540.227,
+        "update": 1703950834174
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BLUR_USDT.Y",
+    "oi": [
+      {
+        "value": 544941.1038,
+        "update": 1703950834141
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WIN_USDT.Y",
+    "oi": [
+      {
+        "value": 30421.818,
+        "update": 1703950827770
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ACE_USDT.Y",
+    "oi": [
+      {
+        "value": 743685.8175,
+        "update": 1703950834303
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BSV_USDT.Y",
+    "oi": [
+      {
+        "value": 2048820.1524,
+        "update": 1703950834144
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FRONT_USDT.Y",
+    "oi": [
+      {
+        "value": 131700.2746,
+        "update": 1703950831048
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BAL_USDT.Y",
+    "oi": [
+      {
+        "value": 42634.90260000001,
+        "update": 1703950819013
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HBAR_USDT.Y",
+    "oi": [
+      {
+        "value": 125316.4248,
+        "update": 1703950822352
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GAS_USDT.Y",
+    "oi": [
+      {
+        "value": 837540.6440000001,
+        "update": 1703950831063
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WLD_USDT.Y",
+    "oi": [
+      {
+        "value": 1762985.3360000001,
+        "update": 1703950834108
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KAS_USDT.Y",
+    "oi": [
+      {
+        "value": 4440935.784,
+        "update": 1703950834166
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CELO_USDT.Y",
+    "oi": [
+      {
+        "value": 143726.88,
+        "update": 1703950812728
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RATS_USDT.Y",
+    "oi": [
+      {
+        "value": 3345621.2945999997,
+        "update": 1703950834168
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FIDA_USDT.Y",
+    "oi": [
+      {
+        "value": 417429.5552,
+        "update": 1703950812552
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "POWR_USDT.Y",
+    "oi": [
+      {
+        "value": 132526.368,
+        "update": 1703950831071
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OAX_USDT.Y",
+    "oi": [
+      {
+        "value": 29997.2628,
+        "update": 1703950747190
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KSM_USDT.Y",
+    "oi": [
+      {
+        "value": 398254.8,
+        "update": 1703950812584
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "APT_USDT.Y",
+    "oi": [
+      {
+        "value": 962512.5090000001,
+        "update": 1703950834122
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LADYS_USDT.Y",
+    "oi": [
+      {
+        "value": 294021.90300000005,
+        "update": 1703950834158
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AMB_USDT.Y",
+    "oi": [
+      {
+        "value": 72944.1916,
+        "update": 1703950831001
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "POND_USDT.Y",
+    "oi": [
+      {
+        "value": 51353.602,
+        "update": 1703950800570
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PEOPLE_USDT.Y",
+    "oi": [
+      {
+        "value": 229701.7485,
+        "update": 1703950831148
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CTK_USDT.Y",
+    "oi": [
+      {
+        "value": 36139.6071,
+        "update": 1703950807066
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MBOX_USDT.Y",
+    "oi": [
+      {
+        "value": 49871.617600000005,
+        "update": 1703950800819
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AVAX_USDT.Y",
+    "oi": [
+      {
+        "value": 4801768.95,
+        "update": 1703950834143
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VELO_USDT.Y",
+    "oi": [
+      {
+        "value": 212835.76700000002,
+        "update": 1703950740764
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WSM_USDT.Y",
+    "oi": [
+      {
+        "value": 634675.644,
+        "update": 1703950819194
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CFX_USDT.Y",
+    "oi": [
+      {
+        "value": 1283504.698,
+        "update": 1703950830980
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLR_USDT.Y",
+    "oi": [
+      {
+        "value": 75748.4196,
+        "update": 1703950812782
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BONK_USDT.Y",
+    "oi": [
+      {
+        "value": 2461459.2684,
+        "update": 1703950834190
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OCEAN_USDT.Y",
+    "oi": [
+      {
+        "value": 329919.075,
+        "update": 1703950831139
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MAGIC_USDT.Y",
+    "oi": [
+      {
+        "value": 364111.07839999994,
+        "update": 1703950831105
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BOND_USDT.Y",
+    "oi": [
+      {
+        "value": 227061.78,
+        "update": 1703950812574
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "USTC_USDT.Y",
+    "oi": [
+      {
+        "value": 1201235.4547000001,
+        "update": 1703950822142
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "IOTA_USDT.Y",
+    "oi": [
+      {
+        "value": 124539.9328,
+        "update": 1703950831098
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "YFI_USDT.Y",
+    "oi": [
+      {
+        "value": 163071.3892,
+        "update": 1703950831033
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SPELL_USDT.Y",
+    "oi": [
+      {
+        "value": 71186.8896,
+        "update": 1703950791886
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BTC_USDT.Y",
+    "oi": [
+      {
+        "value": 570712664.12624,
+        "update": 1703950834139
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "NMR_USDT.Y",
+    "oi": [
+      {
+        "value": 388727.8514,
+        "update": 1703950834273
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DYDX_USDT.Y",
+    "oi": [
+      {
+        "value": 2227476.6668,
+        "update": 1703950834184
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SXP_USDT.Y",
+    "oi": [
+      {
+        "value": 365732.65719999996,
+        "update": 1703950831156
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KDA_USDT.Y",
+    "oi": [
+      {
+        "value": 375417.4375,
+        "update": 1703950834296
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ETH_USD.Y",
+    "oi": [
+      {
+        "value": 389651.00955714606,
+        "update": 1703950815842
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VRTX_USDT.Y",
+    "oi": [
+      {
+        "value": 33596.64,
+        "update": 1703950812779
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PERP_USDT.Y",
+    "oi": [
+      {
+        "value": 242346.63648000002,
+        "update": 1703950834207
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BAIDOGE_USDT.Y",
+    "oi": [
+      {
+        "value": 101728.224,
+        "update": 1703950812819
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AR_USDT.Y",
+    "oi": [
+      {
+        "value": 184757.3293,
+        "update": 1703950812774
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ASTRA_USDT.Y",
+    "oi": [
+      {
+        "value": 208333.26359999998,
+        "update": 1703950822240
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STMX_USDT.Y",
+    "oi": [
+      {
+        "value": 63264.292199999996,
+        "update": 1703950819084
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LRC_USDT.Y",
+    "oi": [
+      {
+        "value": 222981.62649999998,
+        "update": 1703950830936
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SLP_USDT.Y",
+    "oi": [
+      {
+        "value": 147597.586784,
+        "update": 1703950830994
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OP_USDT.Y",
+    "oi": [
+      {
+        "value": 2229812.0768,
+        "update": 1703950834180
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CELR_USDT.Y",
+    "oi": [
+      {
+        "value": 105679.38480000001,
+        "update": 1703950810318
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BTS_USDT.Y",
+    "oi": [
+      {
+        "value": 50168.019,
+        "update": 1703950812784
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XEC_USDT.Y",
+    "oi": [
+      {
+        "value": 112000.5468,
+        "update": 1703950812734
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ZTX_USDT.Y",
+    "oi": [
+      {
+        "value": 66230.22,
+        "update": 1703950812802
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ARB_USDT.Y",
+    "oi": [
+      {
+        "value": 3077465.1408,
+        "update": 1703950834206
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BAKE_USDT.Y",
+    "oi": [
+      {
+        "value": 893325.0997,
+        "update": 1703950834189
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VET_USDT.Y",
+    "oi": [
+      {
+        "value": 76634.95,
+        "update": 1703950834229
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TURBO_USDT.Y",
+    "oi": [
+      {
+        "value": 100136.86409999999,
+        "update": 1703950812544
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AGLD_USDT.Y",
+    "oi": [
+      {
+        "value": 101402.9764,
+        "update": 1703950795069
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BTT_USDT.Y",
+    "oi": [
+      {
+        "value": 119941.82200000001,
+        "update": 1703950810296
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SSV_USDT.Y",
+    "oi": [
+      {
+        "value": 238480.11000000002,
+        "update": 1703950812615
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ONE_USDT.Y",
+    "oi": [
+      {
+        "value": 40766.015999999996,
+        "update": 1703950834203
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "NEAR_USDT.Y",
+    "oi": [
+      {
+        "value": 2068537.675,
+        "update": 1703950830940
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ARK_USDT.Y",
+    "oi": [
+      {
+        "value": 272489.27999999997,
+        "update": 1703950830959
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TIA_USDT.Y",
+    "oi": [
+      {
+        "value": 1128881.208,
+        "update": 1703950834283
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MBL_USDT.Y",
+    "oi": [
+      {
+        "value": 50455.447100000005,
+        "update": 1703950803905
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BICO_USDT.Y",
+    "oi": [
+      {
+        "value": 86305.16100000001,
+        "update": 1703950810243
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AUCTION_USDT.Y",
+    "oi": [
+      {
+        "value": 447454.64999999997,
+        "update": 1703950834224
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SYN_USDT.Y",
+    "oi": [
+      {
+        "value": 67902.9372,
+        "update": 1703950824714
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CYBER_USDT.Y",
+    "oi": [
+      {
+        "value": 593605.024,
+        "update": 1703950834323
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LTC_USDT.Y",
+    "oi": [
+      {
+        "value": 2892002.09,
+        "update": 1703950830981
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "EDU_USDT.Y",
+    "oi": [
+      {
+        "value": 96721.198,
+        "update": 1703950812533
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BNX_USDT.Y",
+    "oi": [
+      {
+        "value": 40419.9426,
+        "update": 1703950831090
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MTL_USDT.Y",
+    "oi": [
+      {
+        "value": 158188.272,
+        "update": 1703950759116
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LUNC_USDT.Y",
+    "oi": [
+      {
+        "value": 2780213.87,
+        "update": 1703950834186
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OG_USDT.Y",
+    "oi": [
+      {
+        "value": 292590.8202,
+        "update": 1703950822296
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ALICE_USDT.Y",
+    "oi": [
+      {
+        "value": 84552.0104,
+        "update": 1703950822364
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SAND_USDT.Y",
+    "oi": [
+      {
+        "value": 671305.8574,
+        "update": 1703950830967
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "API3_USDT.Y",
+    "oi": [
+      {
+        "value": 136354.491,
+        "update": 1703950831180
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ICP_USDT.Y",
+    "oi": [
+      {
+        "value": 1153027.8342,
+        "update": 1703950834251
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PEPE_USDT.Y",
+    "oi": [
+      {
+        "value": 1331202.56,
+        "update": 1703950831057
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RARE_USDT.Y",
+    "oi": [
+      {
+        "value": 108292.8196,
+        "update": 1703950824794
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ETH_USDT.Y",
+    "oi": [
+      {
+        "value": 544556962.888,
+        "update": 1703950834185
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AGIX_USDT.Y",
+    "oi": [
+      {
+        "value": 1011478.68,
+        "update": 1703950831059
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SKL_USDT.Y",
+    "oi": [
+      {
+        "value": 79050.4533,
+        "update": 1703950812715
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AUDIO_USDT.Y",
+    "oi": [
+      {
+        "value": 80002.605,
+        "update": 1703950812636
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "EOS_USDT.Y",
+    "oi": [
+      {
+        "value": 1697084.05,
+        "update": 1703950834115
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DGB_USDT.Y",
+    "oi": [
+      {
+        "value": 14360.2805,
+        "update": 1703950831076
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CKB_USDT.Y",
+    "oi": [
+      {
+        "value": 110017.908,
+        "update": 1703950807194
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SUSHI_USDT.Y",
+    "oi": [
+      {
+        "value": 1096919.7584,
+        "update": 1703950834137
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HFT_USDT.Y",
+    "oi": [
+      {
+        "value": 78893.2117,
+        "update": 1703950834100
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CRV_USDT.Y",
+    "oi": [
+      {
+        "value": 441184.5627,
+        "update": 1703950831041
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLIP_USDT.Y",
+    "oi": [
+      {
+        "value": 107538.538,
+        "update": 1703950812732
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KEY_USDT.Y",
+    "oi": [
+      {
+        "value": 133986.4174,
+        "update": 1703950831085
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PEPE2_USDT.Y",
+    "oi": [
+      {
+        "value": 603420.696,
+        "update": 1703950822315
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STX_USDT.Y",
+    "oi": [
+      {
+        "value": 1360254.9261999999,
+        "update": 1703950834261
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MOVEZ_USDT.Y",
+    "oi": [
+      {
+        "value": 249157.038,
+        "update": 1703950831108
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HIGH_USDT.Y",
+    "oi": [
+      {
+        "value": 63717.07,
+        "update": 1703950824668
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XCN_USDT.Y",
+    "oi": [
+      {
+        "value": 94688.67044,
+        "update": 1703950800599
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XRD_USDT.Y",
+    "oi": [
+      {
+        "value": 271761.6394,
+        "update": 1703950822379
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PYTH_USDT.Y",
+    "oi": [
+      {
+        "value": 1337618.544,
+        "update": 1703950834094
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DOT_USDT.Y",
+    "oi": [
+      {
+        "value": 2277103.44,
+        "update": 1703950834233
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SATS_USDT.Y",
+    "oi": [
+      {
+        "value": 3380498.5611,
+        "update": 1703950834147
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LPT_USDT.Y",
+    "oi": [
+      {
+        "value": 414885.8028,
+        "update": 1703950831030
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GALA_USDT.Y",
+    "oi": [
+      {
+        "value": 1027937.0334,
+        "update": 1703950834126
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ETC_USDT.Y",
+    "oi": [
+      {
+        "value": 2432297.9376000003,
+        "update": 1703950831009
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MBABYDOGE_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FET_USDT.Y",
+    "oi": [
+      {
+        "value": 1060229.0659999999,
+        "update": 1703950834152
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RDNT_USDT.Y",
+    "oi": [
+      {
+        "value": 223748.5096,
+        "update": 1703950830926
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BLZ_USDT.Y",
+    "oi": [
+      {
+        "value": 259464.30000000002,
+        "update": 1703950834326
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MEME_USDT.Y",
+    "oi": [
+      {
+        "value": 1179700.7844999998,
+        "update": 1703950831031
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "UNI_USDT.Y",
+    "oi": [
+      {
+        "value": 1661708.686,
+        "update": 1703950834130
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WAVES_USDT.Y",
+    "oi": [
+      {
+        "value": 1048761.363,
+        "update": 1703950831113
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OXT_USDT.Y",
+    "oi": [
+      {
+        "value": 71096.643,
+        "update": 1703950762239
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GLMR_USDT.Y",
+    "oi": [
+      {
+        "value": 496689.321,
+        "update": 1703950812761
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DUSK_USDT.Y",
+    "oi": [
+      {
+        "value": 53946.8012,
+        "update": 1703950800771
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "C98_USDT.Y",
+    "oi": [
+      {
+        "value": 499652.18500000006,
+        "update": 1703950830998
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FITFI_USDT.Y",
+    "oi": [
+      {
+        "value": 240134.22252799998,
+        "update": 1703950834284
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "JTO_USDT.Y",
+    "oi": [
+      {
+        "value": 1398548.5724000002,
+        "update": 1703950834088
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "COTI_USDT.Y",
+    "oi": [
+      {
+        "value": 76531.91040000001,
+        "update": 1703950798263
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ETHW_USDT.Y",
+    "oi": [
+      {
+        "value": 453305.1471,
+        "update": 1703950834262
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TRU_USDT.Y",
+    "oi": [
+      {
+        "value": 53383.9882,
+        "update": 1703950831067
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STEEM_USDT.Y",
+    "oi": [
+      {
+        "value": 26465.112,
+        "update": 1703950807163
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LAI_USDT.Y",
+    "oi": [
+      {
+        "value": 27674.2776,
+        "update": 1703950819138
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HNT_USDT.Y",
+    "oi": [
+      {
+        "value": 47493.5961,
+        "update": 1703950831070
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BAT_USDT.Y",
+    "oi": [
+      {
+        "value": 109982.691,
+        "update": 1703950831119
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "REN_USDT.Y",
+    "oi": [
+      {
+        "value": 79768.95999999999,
+        "update": 1703950831049
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "JST_USDT.Y",
+    "oi": [
+      {
+        "value": 14185.184,
+        "update": 1703950824679
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "JOE_USDT.Y",
+    "oi": [
+      {
+        "value": 89239.75970000001,
+        "update": 1703950803876
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VGX_USDT.Y",
+    "oi": [
+      {
+        "value": 368142.9328,
+        "update": 1703950812540
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DHX_USDT.Y",
+    "oi": [
+      {
+        "value": 26198.3904,
+        "update": 1703950812827
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LOKA_USDT.Y",
+    "oi": [
+      {
+        "value": 85301.71459999999,
+        "update": 1703950822294
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "USDC_USDT.Y",
+    "oi": [
+      {
+        "value": 204396.35199999998,
+        "update": 1703950762390
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FIL_USDT.Y",
+    "oi": [
+      {
+        "value": 3391490.9264,
+        "update": 1703950834187
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OKB_USDT.Y",
+    "oi": [
+      {
+        "value": 86426.21100000001,
+        "update": 1703950791978
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GLM_USDT.Y",
+    "oi": [
+      {
+        "value": 15075.678,
+        "update": 1703950822398
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RAD_USDT.Y",
+    "oi": [
+      {
+        "value": 122622.92080000002,
+        "update": 1703950828002
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ANT_USDT.Y",
+    "oi": [
+      {
+        "value": 59222.0575,
+        "update": 1703950834386
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MASK_USDT.Y",
+    "oi": [
+      {
+        "value": 743555.6357,
+        "update": 1703950834198
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CSPR_USDT.Y",
+    "oi": [
+      {
+        "value": 226594.53,
+        "update": 1703950800804
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "THETA_USDT.Y",
+    "oi": [
+      {
+        "value": 128877.853,
+        "update": 1703950834321
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "POLYX_USDT.Y",
+    "oi": [
+      {
+        "value": 69649.17,
+        "update": 1703950831176
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RUNE_USDT.Y",
+    "oi": [
+      {
+        "value": 1324278.7474,
+        "update": 1703950831080
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CHR_USDT.Y",
+    "oi": [
+      {
+        "value": 59860.774,
+        "update": 1703950812669
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CRO_USDT.Y",
+    "oi": [
+      {
+        "value": 153278.9269,
+        "update": 1703950798251
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MKR_USDT.Y",
+    "oi": [
+      {
+        "value": 275262.7131,
+        "update": 1703950812736
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CREAM_USDT.Y",
+    "oi": [
+      {
+        "value": 48487.776000000005,
+        "update": 1703950819148
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ASTR_USDT.Y",
+    "oi": [
+      {
+        "value": 918365.1318,
+        "update": 1703950834208
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WAXP_USDT.Y",
+    "oi": [
+      {
+        "value": 18279.59,
+        "update": 1703950834107
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ACA_USDT.Y",
+    "oi": [
+      {
+        "value": 105992.013,
+        "update": 1703950800794
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XTZ_USDT.Y",
+    "oi": [
+      {
+        "value": 132271.125,
+        "update": 1703950830966
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LQTY_USDT.Y",
+    "oi": [
+      {
+        "value": 291948.681,
+        "update": 1703950831084
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "IOST_USDT.Y",
+    "oi": [
+      {
+        "value": 95659.4615,
+        "update": 1703950726285
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "YGG_USDT.Y",
+    "oi": [
+      {
+        "value": 752359.6649999999,
+        "update": 1703950834177
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KLAY_USDT.Y",
+    "oi": [
+      {
+        "value": 99047.8854,
+        "update": 1703950831046
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MDT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLOKI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLOW_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OMG_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "1INCH_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BNT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SNX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TON_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GROK_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "YFII_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "NKN_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CVC_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ENS_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AXS_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ARDR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DASH_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RSR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CORE_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XMR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLUX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XNO_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SEI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MINA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ZEC_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RAY_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SOLS_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "COMP_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ALCX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SHIB_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XCH_USDT.Y",
+    "oi": [
+      {
+        "value": 199321.65268,
+        "update": 1703950819178
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "INJ_USDT.Y",
+    "oi": [
+      {
+        "value": 1353172.7699,
+        "update": 1703950834172
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CAKE_USDT.Y",
+    "oi": [
+      {
+        "value": 663820.5742,
+        "update": 1703950812781
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ALGO_USDT.Y",
+    "oi": [
+      {
+        "value": 998042.796,
+        "update": 1703950831171
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "IGU_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FLM_USDT.Y",
+    "oi": [
+      {
+        "value": 105419.488,
+        "update": 1703950812712
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "REQ_USDT.Y",
+    "oi": [
+      {
+        "value": 12182.8816,
+        "update": 1703950779961
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ATOM_USDT.Y",
+    "oi": [
+      {
+        "value": 652261.7760000001,
+        "update": 1703950834124
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AKRO_USDT.Y",
+    "oi": [
+      {
+        "value": 106835.8106,
+        "update": 1703950807087
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HIFI_USDT.Y",
+    "oi": [
+      {
+        "value": 158829.60510000002,
+        "update": 1703950791706
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VMPX_USDT.Y",
+    "oi": [
+      {
+        "value": 99142.6325,
+        "update": 1703950831183
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STG_USDT.Y",
+    "oi": [
+      {
+        "value": 72363.13500000001,
+        "update": 1703950830987
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CHZ_USDT.Y",
+    "oi": [
+      {
+        "value": 454146.03599999996,
+        "update": 1703950812695
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STPT_USDT.Y",
+    "oi": [
+      {
+        "value": 13623.0549,
+        "update": 1703950795148
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ILV_USDT.Y",
+    "oi": [
+      {
+        "value": 99757.1442,
+        "update": 1703950824746
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PHB_USDT.Y",
+    "oi": [
+      {
+        "value": 57641.5413,
+        "update": 1703950812620
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LDO_USDT.Y",
+    "oi": [
+      {
+        "value": 479319.0586,
+        "update": 1703950834238
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FTM_USDT.Y",
+    "oi": [
+      {
+        "value": 1204037.6508,
+        "update": 1703950834159
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "IOTX_USDT.Y",
+    "oi": [
+      {
+        "value": 127778.2902,
+        "update": 1703950831045
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AAVE_USDT.Y",
+    "oi": [
+      {
+        "value": 640929.4230000001,
+        "update": 1703950834111
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RLC_USDT.Y",
+    "oi": [
+      {
+        "value": 53530.304099999994,
+        "update": 1703950798092
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "AURORA_USDT.Y",
+    "oi": [
+      {
+        "value": 96891.52590000001,
+        "update": 1703950822372
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "KNC_USDT.Y",
+    "oi": [
+      {
+        "value": 113561.9358,
+        "update": 1703950831191
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XRP_USDT.Y",
+    "oi": [
+      {
+        "value": 5242710.96,
+        "update": 1703950831052
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ARPA_USDT.Y",
+    "oi": [
+      {
+        "value": 82656.75749999999,
+        "update": 1703950834270
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RIF_USDT.Y",
+    "oi": [
+      {
+        "value": 38396.750700000004,
+        "update": 1703950834400
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CTSI_USDT.Y",
+    "oi": [
+      {
+        "value": 379596.85559999995,
+        "update": 1703950822334
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BTC_USD.Y",
+    "oi": [
+      {
+        "value": 8493111,
+        "update": 1703950831047
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "APE_USDT.Y",
+    "oi": [
+      {
+        "value": 720857.969,
+        "update": 1703950834227
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MATIC_USDT.Y",
+    "oi": [
+      {
+        "value": 2902764.7890000003,
+        "update": 1703950834230
+      }
+    ],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ONG_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "RNDR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ICX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "FUN_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TRB_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "NEO_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ALPHA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HOOK_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XEN_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "OOKI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SUI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ANKR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SRM_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "UNFI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "PENDLE_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ROSE_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CETUS_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "TOMI_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MYRIA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "SC_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XVG_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "DAR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GFT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ZEN_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GNS_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BCH_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "WOJAK_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STORJ_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LINA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "NTRN_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "HOT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "GMX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "XLM_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LOOM_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "CTC_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "VRA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "LUNA_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "BAND_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "REEF_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ID_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ONT_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "ZRX_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "STARL_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  },
+  {
+    "symbol": "MOVR_USDT.Y",
+    "oi": [],
+    "price": [],
+    "delta": []
+  }
+]
