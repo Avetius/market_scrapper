@@ -15,6 +15,7 @@ var api_keys = [
     "9a4d35d8-0845-4fef-a2cb-2ded60e05e9d", // proton
     "9104fc99-b6ed-403a-9bc4-45bedc2d860b", // dozenproton
     "6f64ea00-8b49-4e4a-bb4e-866f02776e08", // avet89prot
+    "4f9320ae-55e2-4d1a-b086-1e54ba1ccb99", // avetius89prot
 ]
 // "2b177986-faf6-4d0f-984a-0f4bc5ac6ac9", // edo
 
