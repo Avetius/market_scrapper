@@ -122,7 +122,7 @@ def get_gateio_oi():
     except requests.RequestException as error:
         print("Error fetching open interest data:", error)
     except Exception as e:
-        print('Error :', e)        
+        print('Error :', e)
 
 
 async def main():

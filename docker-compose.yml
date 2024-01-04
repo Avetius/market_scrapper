@@ -1,6 +1,16 @@
 version: '3.8'
 
 services:
+  db:
+    image: timescale/timescaledb:latest-pg12
+    environment:
+      - POSTGRES_DB=gateio
+      - POSTGRES_USER=open
+      - POSTGRES_PASSWORD=interest
+    ports:
+      - "5432:5432"
+    volumes:
+      - timescaledb_data:/var/lib/postgresql/data
   gateio-ws:
     build:
       context: ./gateio_ws
@@ -36,19 +46,27 @@ services:
     # volumes:
     #   - api_data:/usr/src/app
 
-
-  # cron:
-  #   build:
-  #     context: ./cronjobs
-  #   volumes:
-  #     - cronjob_data:/usr/src/app
+  coinalyze:
+    build:
+      context: ./coinalyze
+    ports:
+      - "8008:8008"
+    networks:
+      - mynetwork
+    environment:
+      - POSTGRES_DB=coinalyze
+      - POSTGRES_USER=open
+      - POSTGRES_PASSWORD=interest
+    volumes:
+      - coinalyze_data:/usr/src/app
 
 
 volumes:
   redis-data:
+  timescaledb_data:
+  coinalyze_data:
   # ws_data:
   # api_data:
-  # timescaledb_data:
   # cronjob_data:
 
 networks:
@@ -60,3 +78,9 @@ networks:
     driver: bridge
   network3:
     driver: bridge
+
+  # cron:
+  #   build:
+  #     context: ./cronjobs
+  #   volumes:
+  #     - cronjob_data:/usr/src/app
