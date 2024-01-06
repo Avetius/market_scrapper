@@ -1,1587 +1,1597 @@
 [
   {
     "symbol": "ACH_USDT.Y",
-    "value": 267864.43563,
-    "update": 1704203741103
+    "value": 209208.8427,
+    "update": 1704418182185
   },
   {
     "symbol": "ADA_USDT.Y",
-    "value": 2554489.81,
-    "update": 1704203731464
+    "value": 2149205.226,
+    "update": 1704418218116
   },
   {
     "symbol": "AMP_USDT.Y",
-    "value": 29425.969999999998,
-    "update": 1704203722635
+    "value": 43395.9,
+    "update": 1704418203034
   },
   {
     "symbol": "ARKM_USDT.Y",
-    "value": 266108.4792,
-    "update": 1704203731423
+    "value": 152529.0612,
+    "update": 1704418206152
   },
   {
     "symbol": "BEAMX_USDT.Y",
-    "value": 184280.85069999998,
-    "update": 1704203713916
+    "value": 226768.977,
+    "update": 1704418208585
   },
   {
     "symbol": "BEL_USDT.Y",
-    "value": 118991.0879,
-    "update": 1704203707493
+    "value": 106627.731,
+    "update": 1704418218298
   },
   {
     "symbol": "BIGTIME_USDT.Y",
-    "value": 1958885.7799999998,
-    "update": 1704203713872
+    "value": 1099644.84,
+    "update": 1704418202887
   },
   {
     "symbol": "CEL_USDT.Y",
-    "value": 59971.608,
-    "update": 1704203741195
+    "value": 30609.8973,
+    "update": 1704418187971
   },
   {
     "symbol": "CVX_USDT.Y",
-    "value": 69429.3782,
-    "update": 1704203719380
+    "value": 58417.8784,
+    "update": 1704418215098
   },
   {
     "symbol": "DODO_USDT.Y",
-    "value": 104570.0376,
-    "update": 1704203713902
+    "value": 69915.6026,
+    "update": 1704418184570
   },
   {
     "symbol": "EGLD_USDT.Y",
-    "value": 414436.18600000005,
-    "update": 1704203731662
+    "value": 207631.306,
+    "update": 1704418202999
   },
   {
     "symbol": "ENJ_USDT.Y",
-    "value": 135008.4474,
-    "update": 1704203719573
+    "value": 109874.4696,
+    "update": 1704418203009
   },
   {
     "symbol": "FTT_USDT.Y",
-    "value": 3247992.283809,
-    "update": 1704203741021
+    "value": 2451840.1308399998,
+    "update": 1704418202882
   },
   {
     "symbol": "GAL_USDT.Y",
-    "value": 130279.79880000002,
-    "update": 1704203729155
+    "value": 125920.85170000003,
+    "update": 1704418218053
   },
   {
     "symbol": "GARI_USDT.Y",
-    "value": 66810.4981,
-    "update": 1704203738774
+    "value": 59282.0337,
+    "update": 1704418203165
   },
   {
     "symbol": "GMT_USDT.Y",
-    "value": 1581843.2342,
-    "update": 1704203713858
+    "value": 1018409.658,
+    "update": 1704418218143
   },
   {
     "symbol": "JASMY_USDT.Y",
-    "value": 486733.757976,
-    "update": 1704203738621
+    "value": 296947.57019399997,
+    "update": 1704418218160
   },
   {
     "symbol": "LINK_USDT.Y",
-    "value": 3115346.7939999998,
-    "update": 1704203722588
+    "value": 2618056.636,
+    "update": 1704418218152
   },
   {
     "symbol": "MANA_USDT.Y",
-    "value": 485393.41120000003,
-    "update": 1704203725886
+    "value": 393108.4627600001,
+    "update": 1704418218139
   },
   {
     "symbol": "OGN_USDT.Y",
-    "value": 101908.93999999999,
-    "update": 1704203740970
+    "value": 92722.8564,
+    "update": 1704418208482
   },
   {
     "symbol": "ORDI_USDT.Y",
-    "value": 9010067.4125,
-    "update": 1704203741100
+    "value": 6264551.313000001,
+    "update": 1704418218109
   },
   {
     "symbol": "POGAI_USDT.Y",
-    "value": 1344490.4358,
-    "update": 1704203714022
+    "value": 1116601.5564000001,
+    "update": 1704418211965
   },
   {
     "symbol": "PYR_USDT.Y",
-    "value": 80494.4736,
-    "update": 1704203713995
+    "value": 52969.0176,
+    "update": 1704418215050
   },
   {
     "symbol": "QNT_USDT.Y",
-    "value": 125289.15359999999,
-    "update": 1704203705162
+    "value": 77769.719,
+    "update": 1704418191053
   },
   {
     "symbol": "RVN_USDT.Y",
-    "value": 119978.74200000001,
-    "update": 1704203734866
+    "value": 63379.570499999994,
+    "update": 1704418218307
   },
   {
     "symbol": "SOL_USDT.Y",
-    "value": 10251624.959999999,
-    "update": 1704203738564
+    "value": 8505810.963,
+    "update": 1704418218080
   },
   {
     "symbol": "STRAX_USDT.Y",
-    "value": 179573.888,
-    "update": 1704203738745
+    "value": 171343.698,
+    "update": 1704418218157
   },
   {
     "symbol": "TLM_USDT.Y",
-    "value": 51377.84064,
-    "update": 1704203729078
+    "value": 33983.46033,
+    "update": 1704418218070
   },
   {
     "symbol": "TWT_USDT.Y",
-    "value": 78902.9157,
-    "update": 1704203717262
+    "value": 64896.325000000004,
+    "update": 1704418184722
   },
   {
     "symbol": "VOXEL_USDT.Y",
-    "value": 91562.493,
-    "update": 1704203707653
+    "value": 37895.9,
+    "update": 1704418208628
   },
   {
     "symbol": "WOO_USDT.Y",
-    "value": 100296.2664,
-    "update": 1704203717155
+    "value": 196267.4625,
+    "update": 1704418218312
   },
   {
     "symbol": "XVS_USDT.Y",
-    "value": 108769.80700000002,
-    "update": 1704203729160
+    "value": 86915.445,
+    "update": 1704418211868
   },
   {
     "symbol": "ZIL_USDT.Y",
-    "value": 108182.8545,
-    "update": 1704203713791
+    "value": 104419.665,
+    "update": 1704418202942
   },
   {
     "symbol": "ACE_USDT.Y",
-    "value": 849894.2346,
-    "update": 1704203738713
+    "value": 393331.75059999997,
+    "update": 1704418214987
   },
   {
     "symbol": "BADGER_USDT.Y",
-    "value": 309152.1732,
-    "update": 1704203734847
+    "value": 257870.37240000002,
+    "update": 1704418215036
   },
   {
     "symbol": "BAL_USDT.Y",
-    "value": 53068.00200000001,
-    "update": 1704203710703
+    "value": 41904.3456,
+    "update": 1704418179010
   },
   {
     "symbol": "BENQI_USDT.Y",
-    "value": 64384.39,
-    "update": 1704203701832
+    "value": 26271.252,
+    "update": 1704418218226
   },
   {
     "symbol": "BLUR_USDT.Y",
-    "value": 578962.6323,
-    "update": 1704203734635
+    "value": 475495.03640000004,
+    "update": 1704418218155
   },
   {
     "symbol": "BNB_USDT.Y",
-    "value": 15626103.7816,
-    "update": 1704203741101
+    "value": 9655485.8355,
+    "update": 1704418218150
   },
   {
     "symbol": "BSV_USDT.Y",
-    "value": 1776129.0649,
-    "update": 1704203741025
+    "value": 1247578.8936,
+    "update": 1704418218119
   },
   {
     "symbol": "CELO_USDT.Y",
-    "value": 238043.6285,
-    "update": 1704203725996
+    "value": 136154.08,
+    "update": 1704418199822
   },
   {
     "symbol": "DENT_USDT.Y",
-    "value": 61817.019,
-    "update": 1704203713936
+    "value": 53338.0074,
+    "update": 1704418215120
   },
   {
     "symbol": "DOGE_USDT.Y",
-    "value": 8282048.2734,
-    "update": 1704203741052
+    "value": 7300667.685,
+    "update": 1704418218077
   },
   {
     "symbol": "FRONT_USDT.Y",
-    "value": 91445.7145,
-    "update": 1704203713896
+    "value": 157884.3668,
+    "update": 1704418218341
   },
   {
     "symbol": "GAS_USDT.Y",
-    "value": 693309.576,
-    "update": 1704203717111
+    "value": 411609.31,
+    "update": 1704418218118
   },
   {
     "symbol": "GRT_USDT.Y",
-    "value": 422355.5196,
-    "update": 1704203741175
+    "value": 354610.07159999997,
+    "update": 1704418206056
   },
   {
     "symbol": "HBAR_USDT.Y",
-    "value": 160750.856,
-    "update": 1704203722852
+    "value": 124213.73580000001,
+    "update": 1704418202936
   },
   {
     "symbol": "HT_USDT.Y",
-    "value": 290532.073,
-    "update": 1704203726075
+    "value": 150692.775,
+    "update": 1704418215027
   },
   {
     "symbol": "IMX_USDT.Y",
-    "value": 1011318.8194,
-    "update": 1704203741055
+    "value": 908385.87,
+    "update": 1704418211704
   },
   {
     "symbol": "KAS_USDT.Y",
-    "value": 4829794.047,
-    "update": 1704203713845
+    "value": 2599812.332,
+    "update": 1704418218177
   },
   {
     "symbol": "KAVA_USDT.Y",
-    "value": 148058.0367,
-    "update": 1704203731429
+    "value": 128168.60399999999,
+    "update": 1704418218075
   },
   {
     "symbol": "LIT_USDT.Y",
-    "value": 61367.184199999996,
-    "update": 1704203714027
+    "value": 36993.954,
+    "update": 1704418175818
   },
   {
     "symbol": "LOOKS_USDT.Y",
-    "value": 127471.47619999999,
-    "update": 1704203722643
+    "value": 78742.41930000001,
+    "update": 1704418202990
   },
   {
     "symbol": "MAV_USDT.Y",
-    "value": 76080.82,
-    "update": 1704203714047
+    "value": 68192.976,
+    "update": 1704418203100
   },
   {
     "symbol": "ORBS_USDT.Y",
-    "value": 97016.4694,
-    "update": 1704203713781
+    "value": 97946.77759999999,
+    "update": 1704418211783
   },
   {
     "symbol": "QTUM_USDT.Y",
-    "value": 184729.248,
-    "update": 1704203713913
+    "value": 60672.563,
+    "update": 1704418208679
   },
   {
     "symbol": "RACA_USDT.Y",
-    "value": 234641.27015,
-    "update": 1704203713970
+    "value": 114898.7872,
+    "update": 1704418211728
   },
   {
     "symbol": "RATS_USDT.Y",
-    "value": 3331795.2065000003,
-    "update": 1704203741049
+    "value": 1713166.712,
+    "update": 1704418206197
   },
   {
     "symbol": "RPL_USDT.Y",
-    "value": 18637.4949,
-    "update": 1704203705245
+    "value": 17731.462499999998,
+    "update": 1704418203022
   },
   {
     "symbol": "SFP_USDT.Y",
-    "value": 13769.4795,
-    "update": 1704203725856
+    "value": 9604.609,
+    "update": 1704418203005
   },
   {
     "symbol": "SUPER_USDT.Y",
-    "value": 101493.97110000001,
-    "update": 1704203717226
+    "value": 126743.524,
+    "update": 1704418202970
   },
   {
     "symbol": "TOKEN_USDT.Y",
-    "value": 253966.47,
-    "update": 1704203713777
+    "value": 119296.52,
+    "update": 1704418202988
   },
   {
     "symbol": "TRX_USDT.Y",
-    "value": 513249.48000000004,
-    "update": 1704203713904
+    "value": 432484.959,
+    "update": 1704418196746
   },
   {
     "symbol": "WEMIX_USDT.Y",
-    "value": 849237.9633,
-    "update": 1704203726032
+    "value": 821297.4884,
+    "update": 1704418203078
   },
   {
     "symbol": "WIN_USDT.Y",
-    "value": 22204.181999999997,
-    "update": 1704203717041
+    "value": 17018.042,
+    "update": 1704418184800
   },
   {
     "symbol": "WLD_USDT.Y",
-    "value": 1685253.62,
-    "update": 1704203738518
+    "value": 1330222.342,
+    "update": 1704418218117
   },
   {
     "symbol": "AMB_USDT.Y",
-    "value": 66958.6788,
-    "update": 1704203713849
+    "value": 32560.162800000002,
+    "update": 1704418182307
   },
   {
     "symbol": "APT_USDT.Y",
-    "value": 914229.37,
-    "update": 1704203722619
+    "value": 934008.876,
+    "update": 1704418220565
   },
   {
     "symbol": "AVAX_USDT.Y",
-    "value": 4842148.88,
-    "update": 1704203717022
+    "value": 3500724.2,
+    "update": 1704418214887
   },
   {
     "symbol": "BAIDOGE_USDT.Y",
-    "value": 91614.336,
-    "update": 1704203710890
+    "value": 43168.95,
+    "update": 1704418211927
   },
   {
     "symbol": "BOND_USDT.Y",
-    "value": 138879.154,
-    "update": 1704203722648
+    "value": 123415.175,
+    "update": 1704418218151
   },
   {
     "symbol": "BONK_USDT.Y",
-    "value": 2081859.5688,
-    "update": 1704203741071
+    "value": 1078804.2258,
+    "update": 1704418202938
   },
   {
     "symbol": "BTC_USDT.Y",
-    "value": 698991681.0492,
-    "update": 1704203741020
+    "value": 507867564.80824006,
+    "update": 1704418220532
   },
   {
     "symbol": "CFX_USDT.Y",
-    "value": 1456614.258,
-    "update": 1704203731479
+    "value": 1026641.8239999999,
+    "update": 1704418218230
   },
   {
     "symbol": "CTK_USDT.Y",
-    "value": 37767.2064,
-    "update": 1704203713948
+    "value": 46459.7736,
+    "update": 1704418158342
   },
   {
     "symbol": "DYDX_USDT.Y",
-    "value": 2414708.3120000004,
-    "update": 1704203741065
+    "value": 1287711.7524,
+    "update": 1704418220606
   },
   {
     "symbol": "ETH_USD.Y",
-    "value": 446828.066880156,
-    "update": 1704203703475
+    "value": 271545.43820000003,
+    "update": 1704418198450
   },
   {
     "symbol": "FIDA_USDT.Y",
-    "value": 207641.7347,
-    "update": 1704203741010
+    "value": 164887.6016,
+    "update": 1704418203104
   },
   {
     "symbol": "FLR_USDT.Y",
-    "value": 86649.4452,
-    "update": 1704203714038
+    "value": 94008.8085,
+    "update": 1704418220707
   },
   {
     "symbol": "IOTA_USDT.Y",
-    "value": 166791.8862,
-    "update": 1704203738677
+    "value": 101747.36549999999,
+    "update": 1704418211732
   },
   {
     "symbol": "KDA_USDT.Y",
-    "value": 444064.9636,
-    "update": 1704203713975
+    "value": 230744.9641,
+    "update": 1704418203036
   },
   {
     "symbol": "KSM_USDT.Y",
-    "value": 332302.799,
-    "update": 1704203741042
+    "value": 167412.08400000003,
+    "update": 1704418218205
   },
   {
     "symbol": "LADYS_USDT.Y",
-    "value": 337363.52849999996,
-    "update": 1704203741039
+    "value": 167331.43959999998,
+    "update": 1704418220494
   },
   {
     "symbol": "MAGIC_USDT.Y",
-    "value": 322603.05,
-    "update": 1704203717153
+    "value": 315454.1264,
+    "update": 1704418218227
   },
   {
     "symbol": "MBOX_USDT.Y",
-    "value": 96568.3566,
-    "update": 1704203734896
+    "value": 72487.8042,
+    "update": 1704418215133
   },
   {
     "symbol": "NMR_USDT.Y",
-    "value": 96636.19440000002,
-    "update": 1704203719561
+    "value": 70843.3355,
+    "update": 1704418202998
   },
   {
     "symbol": "OAX_USDT.Y",
-    "value": 29224.647,
-    "update": 1704203719680
+    "value": 19772.7535,
+    "update": 1704418215088
   },
   {
     "symbol": "OCEAN_USDT.Y",
-    "value": 360365.7795,
-    "update": 1704203738718
+    "value": 321245.8816,
+    "update": 1704418206158
   },
   {
     "symbol": "PEOPLE_USDT.Y",
-    "value": 250608.6877,
-    "update": 1704203729212
+    "value": 1065421.9719,
+    "update": 1704418220498
   },
   {
     "symbol": "PERP_USDT.Y",
-    "value": 339459.6006,
-    "update": 1704203741088
+    "value": 452883.64496,
+    "update": 1704418203014
   },
   {
     "symbol": "POND_USDT.Y",
-    "value": 54959.28,
-    "update": 1704203701830
+    "value": 50034.8001,
+    "update": 1704418187821
   },
   {
     "symbol": "POWR_USDT.Y",
-    "value": 115446.285,
-    "update": 1704203731570
+    "value": 361407.079,
+    "update": 1704418218052
   },
   {
     "symbol": "SPELL_USDT.Y",
-    "value": 87917.2068,
-    "update": 1704203734780
+    "value": 41981.477999999996,
+    "update": 1704418211757
   },
   {
     "symbol": "SXP_USDT.Y",
-    "value": 504223.84520000004,
-    "update": 1704203717204
+    "value": 114525.5968,
+    "update": 1704418215129
   },
   {
     "symbol": "USTC_USDT.Y",
-    "value": 1000552.4256,
-    "update": 1704203731475
+    "value": 788173.2132,
+    "update": 1704418215072
   },
   {
     "symbol": "VELO_USDT.Y",
-    "value": 235517.0855,
-    "update": 1704203705255
+    "value": 217031.9947,
+    "update": 1704418220725
   },
   {
     "symbol": "VRTX_USDT.Y",
-    "value": 24003.669,
-    "update": 1704203714035
+    "value": 19507.365,
+    "update": 1704418218345
   },
   {
     "symbol": "WSM_USDT.Y",
-    "value": 603025.071,
-    "update": 1704203734884
+    "value": 380985.12000000005,
+    "update": 1704418215059
   },
   {
     "symbol": "YFI_USDT.Y",
-    "value": 173167.34162,
-    "update": 1704203698679
+    "value": 126218.39235000001,
+    "update": 1704418182054
   },
   {
     "symbol": "1CAT_USDT.Y",
-    "value": 539490.2940999999,
-    "update": 1704203731672
+    "value": 787625.7779999999,
+    "update": 1704418220729
   },
   {
     "symbol": "AGLD_USDT.Y",
-    "value": 138467.8692,
-    "update": 1704203741152
+    "value": 101833.3956,
+    "update": 1704418218236
   },
   {
     "symbol": "ARB_USDT.Y",
-    "value": 3818906.2158,
-    "update": 1704203734700
+    "value": 3206503.6769999997,
+    "update": 1704418220520
   },
   {
     "symbol": "ARK_USDT.Y",
-    "value": 292092.7904,
-    "update": 1704203729023
+    "value": 204623.704,
+    "update": 1704418218329
   },
   {
     "symbol": "AR_USDT.Y",
-    "value": 243644.9625,
-    "update": 1704203717230
+    "value": 147037.39800000002,
+    "update": 1704418203111
   },
   {
     "symbol": "ASTRA_USDT.Y",
-    "value": 219064.8096,
-    "update": 1704203725934
+    "value": 118672.209,
+    "update": 1704418203077
   },
   {
     "symbol": "AUCTION_USDT.Y",
-    "value": 483721.49160000007,
-    "update": 1704203717103
+    "value": 194128.0857,
+    "update": 1704418218106
   },
   {
     "symbol": "BAKE_USDT.Y",
-    "value": 759004.82215,
-    "update": 1704203741070
+    "value": 587459.6324,
+    "update": 1704418220509
   },
   {
     "symbol": "BICO_USDT.Y",
-    "value": 84173.09130000001,
-    "update": 1704203713926
+    "value": 59021.705799999996,
+    "update": 1704418208580
   },
   {
     "symbol": "BNX_USDT.Y",
-    "value": 27957.056,
-    "update": 1704203633129
+    "value": 36425.8069,
+    "update": 1704418151736
   },
   {
     "symbol": "BTS_USDT.Y",
-    "value": 51337.025,
-    "update": 1704203738771
+    "value": 61762.272,
+    "update": 1704418187970
   },
   {
     "symbol": "BTT_USDT.Y",
-    "value": 129563.79999999999,
-    "update": 1704203719588
+    "value": 51272.297999999995,
+    "update": 1704418179071
   },
   {
     "symbol": "CELR_USDT.Y",
-    "value": 109961.80159999999,
-    "update": 1704203714001
+    "value": 77827.2471,
+    "update": 1704418203089
   },
   {
     "symbol": "CYBER_USDT.Y",
-    "value": 597623.5552000001,
-    "update": 1704203714002
+    "value": 648843.8319999999,
+    "update": 1704418203007
   },
   {
     "symbol": "EDU_USDT.Y",
-    "value": 95004,
-    "update": 1704203740991
+    "value": 123141.161,
+    "update": 1704418215119
   },
   {
     "symbol": "LRC_USDT.Y",
-    "value": 259694.4135,
-    "update": 1704203740986
+    "value": 187862.891,
+    "update": 1704418202997
   },
   {
     "symbol": "LTC_USDT.Y",
-    "value": 2276630.3589999997,
-    "update": 1704203731480
+    "value": 2016748.384,
+    "update": 1704418220584
   },
   {
     "symbol": "LUNC_USDT.Y",
-    "value": 2835599.5309,
-    "update": 1704203741067
+    "value": 2324905.486,
+    "update": 1704418220600
   },
   {
     "symbol": "MBL_USDT.Y",
-    "value": 57776.544,
-    "update": 1704203707639
+    "value": 30604.844999999998,
+    "update": 1704418203010
   },
   {
     "symbol": "MTL_USDT.Y",
-    "value": 176514.996,
-    "update": 1704203714009
+    "value": 148537.4254,
+    "update": 1704418202982
   },
   {
     "symbol": "NEAR_USDT.Y",
-    "value": 2055288.3780000003,
-    "update": 1704203740990
+    "value": 1702851.36,
+    "update": 1704418214949
   },
   {
     "symbol": "NFP_USDT.Y",
-    "value": 335428.774,
-    "update": 1704203741075
+    "value": 229746.2388,
+    "update": 1704418218314
   },
   {
     "symbol": "ONE_USDT.Y",
-    "value": 41555.215299999996,
-    "update": 1704203705078
+    "value": 26689.642,
+    "update": 1704418218111
   },
   {
     "symbol": "OP_USDT.Y",
-    "value": 2389671.0143999998,
-    "update": 1704203734674
+    "value": 1717652.9671999998,
+    "update": 1704418220519
   },
   {
     "symbol": "SLP_USDT.Y",
-    "value": 118522.87774,
-    "update": 1704203713842
+    "value": 130374.785296,
+    "update": 1704418218224
   },
   {
     "symbol": "SSV_USDT.Y",
-    "value": 284564.2275,
-    "update": 1704203713871
+    "value": 212901.975,
+    "update": 1704418220560
   },
   {
     "symbol": "STMX_USDT.Y",
-    "value": 66796.06319999999,
-    "update": 1704203731610
+    "value": 33784.364700000006,
+    "update": 1704418206359
   },
   {
     "symbol": "SYN_USDT.Y",
-    "value": 116105.5227,
-    "update": 1704203725992
+    "value": 69700.1814,
+    "update": 1704418182328
   },
   {
     "symbol": "TIA_USDT.Y",
-    "value": 1082514.831,
-    "update": 1704203741164
+    "value": 1000522.25,
+    "update": 1704418218087
   },
   {
     "symbol": "TURBO_USDT.Y",
-    "value": 98686.4128,
-    "update": 1704203722618
+    "value": 78517.11839999999,
+    "update": 1704418220512
   },
   {
     "symbol": "VET_USDT.Y",
-    "value": 101634.083,
-    "update": 1704203710723
+    "value": 94412.90000000001,
+    "update": 1704418187697
   },
   {
     "symbol": "XEC_USDT.Y",
-    "value": 87806.56999999999,
-    "update": 1704203741192
+    "value": 88266.1617,
+    "update": 1704418215097
   },
   {
     "symbol": "ZTX_USDT.Y",
-    "value": 70228.314,
-    "update": 1704203729274
+    "value": 66511.685,
+    "update": 1704418095119
   },
   {
     "symbol": "AGIX_USDT.Y",
-    "value": 1002022.416,
-    "update": 1704203738638
+    "value": 589150.195,
+    "update": 1704418220569
   },
   {
     "symbol": "ALICE_USDT.Y",
-    "value": 92314.8454,
-    "update": 1704203717246
+    "value": 97083.4841,
+    "update": 1704418218060
   },
   {
     "symbol": "API3_USDT.Y",
-    "value": 165727.915,
-    "update": 1704203729244
+    "value": 141309.207,
+    "update": 1704418220638
   },
   {
     "symbol": "AUDIO_USDT.Y",
-    "value": 88673.25,
-    "update": 1704203713892
+    "value": 83958.2264,
+    "update": 1704418202872
   },
   {
     "symbol": "BSW_USDT.Y",
-    "value": 104851.2512,
-    "update": 1704203734833
+    "value": 83193.6756,
+    "update": 1704418206354
   },
   {
     "symbol": "CKB_USDT.Y",
-    "value": 115750.1766,
-    "update": 1704203741278
+    "value": 96820.1172,
+    "update": 1704418203032
   },
   {
     "symbol": "CRV_USDT.Y",
-    "value": 497247.50240000006,
-    "update": 1704203731540
+    "value": 365427.4449,
+    "update": 1704418220615
   },
   {
     "symbol": "DGB_USDT.Y",
-    "value": 18599.304,
-    "update": 1704203741126
+    "value": 13787.993999999999,
+    "update": 1704418199862
   },
   {
     "symbol": "DOT_USDT.Y",
-    "value": 2256720.5719999997,
-    "update": 1704203725924
+    "value": 1296581.685,
+    "update": 1704418218055
   },
   {
     "symbol": "EOS_USDT.Y",
-    "value": 1731611.355,
-    "update": 1704203729010
+    "value": 1339653.273,
+    "update": 1704418202923
   },
   {
     "symbol": "ETC_USDT.Y",
-    "value": 2192515.1912000002,
-    "update": 1704203738588
+    "value": 1999175.0732000002,
+    "update": 1704418220590
   },
   {
     "symbol": "ETH_USDT.Y",
-    "value": 595583357.044,
-    "update": 1704203741066
+    "value": 512158009.04,
+    "update": 1704418220470
   },
   {
     "symbol": "FLIP_USDT.Y",
-    "value": 116234.088,
-    "update": 1704203671600
+    "value": 135906.464,
+    "update": 1704418146173
   },
   {
     "symbol": "FORTH_USDT.Y",
-    "value": 24036.072,
-    "update": 1704203717198
+    "value": 19550.64,
+    "update": 1704418220779
   },
   {
     "symbol": "GALA_USDT.Y",
-    "value": 1016564.948,
-    "update": 1704203725817
+    "value": 714838.5441,
+    "update": 1704418220556
   },
   {
     "symbol": "HFT_USDT.Y",
-    "value": 80708.4798,
-    "update": 1704203728995
+    "value": 71745.6075,
+    "update": 1704418203097
   },
   {
     "symbol": "HIGH_USDT.Y",
-    "value": 67055.8005,
-    "update": 1704203713934
+    "value": 36761.434,
+    "update": 1704418203018
   },
   {
     "symbol": "ICP_USDT.Y",
-    "value": 1333019.73724,
-    "update": 1704203722748
+    "value": 866347.12587,
+    "update": 1704418220610
   },
   {
     "symbol": "KEY_USDT.Y",
-    "value": 133740.101,
-    "update": 1704203717133
+    "value": 74388.216,
+    "update": 1704418202866
   },
   {
     "symbol": "LPT_USDT.Y",
-    "value": 403752.4832,
-    "update": 1704203719487
+    "value": 248139.59230000002,
+    "update": 1704418203092
   },
   {
     "symbol": "MOVEZ_USDT.Y",
-    "value": 283287.17089999997,
-    "update": 1704203722774
+    "value": 354897.2988,
+    "update": 1704418196794
   },
   {
     "symbol": "OG_USDT.Y",
-    "value": 250515.31740000003,
-    "update": 1704203741180
+    "value": 139939.08880000003,
+    "update": 1704418203021
   },
   {
     "symbol": "PEPE2_USDT.Y",
-    "value": 580478.4848,
-    "update": 1704203719606
+    "value": 613152.3250000001,
+    "update": 1704418215148
   },
   {
     "symbol": "PEPE_USDT.Y",
-    "value": 1350889.752,
-    "update": 1704203738636
+    "value": 866045.712,
+    "update": 1704418220528
   },
   {
     "symbol": "PYTH_USDT.Y",
-    "value": 1127351.04,
-    "update": 1704203731424
+    "value": 533735.286,
+    "update": 1704418211857
   },
   {
     "symbol": "RARE_USDT.Y",
-    "value": 102370.3692,
-    "update": 1704203738791
+    "value": 95498.04980000001,
+    "update": 1704418211964
   },
   {
     "symbol": "SAND_USDT.Y",
-    "value": 629179.6416,
-    "update": 1704203738546
+    "value": 497253.7128,
+    "update": 1704418214892
   },
   {
     "symbol": "SATS_USDT.Y",
-    "value": 3610723.1328,
-    "update": 1704203741028
+    "value": 2729641.5640000002,
+    "update": 1704418218173
   },
   {
     "symbol": "SKL_USDT.Y",
-    "value": 113940.9264,
-    "update": 1704203741173
+    "value": 60546.684,
+    "update": 1704418220690
   },
   {
     "symbol": "STX_USDT.Y",
-    "value": 1564080.1176,
-    "update": 1704203719549
+    "value": 1453432.7625,
+    "update": 1704418218185
   },
   {
     "symbol": "SUSHI_USDT.Y",
-    "value": 1084492.3116,
-    "update": 1704203741018
+    "value": 884276.8010000001,
+    "update": 1704418218049
   },
   {
     "symbol": "XCN_USDT.Y",
-    "value": 92036.37828,
-    "update": 1704203707511
+    "value": 83925.774816,
+    "update": 1704418203081
   },
   {
     "symbol": "XRD_USDT.Y",
-    "value": 264560.331,
-    "update": 1704203729277
+    "value": 299726.58629999997,
+    "update": 1704418203075
   },
   {
     "symbol": "ANT_USDT.Y",
-    "value": 57707.947,
-    "update": 1704203714065
+    "value": 46835.379100000006,
+    "update": 1704418184694
   },
   {
     "symbol": "BAT_USDT.Y",
-    "value": 116545.407,
-    "update": 1704203741169
+    "value": 45396.534,
+    "update": 1704418218301
   },
   {
     "symbol": "BLZ_USDT.Y",
-    "value": 224157.88199999998,
-    "update": 1704203729221
+    "value": 288140.055,
+    "update": 1704418215108
   },
   {
     "symbol": "C98_USDT.Y",
-    "value": 483717.67150000005,
-    "update": 1704203713846
+    "value": 96830.608,
+    "update": 1704418218064
   },
   {
     "symbol": "COTI_USDT.Y",
-    "value": 89079.9938,
-    "update": 1704203713947
+    "value": 74958.9126,
+    "update": 1704418196721
   },
   {
     "symbol": "DHX_USDT.Y",
-    "value": 32100.2829,
-    "update": 1704203717283
+    "value": 24737.888,
+    "update": 1704418206290
   },
   {
     "symbol": "DUSK_USDT.Y",
-    "value": 126269.2444,
-    "update": 1704203722851
+    "value": 71726.0058,
+    "update": 1704418218068
   },
   {
     "symbol": "ETHW_USDT.Y",
-    "value": 379239.4104,
-    "update": 1704203743565
+    "value": 244772.54730000003,
+    "update": 1704418218125
   },
   {
     "symbol": "FET_USDT.Y",
-    "value": 1049900.688,
-    "update": 1704203734646
+    "value": 853926.8736,
+    "update": 1704418214881
   },
   {
     "symbol": "FIL_USDT.Y",
-    "value": 5508128.940660001,
-    "update": 1704203731517
+    "value": 4001240.3197399997,
+    "update": 1704418220496
   },
   {
     "symbol": "FITFI_USDT.Y",
-    "value": 259620.65782400002,
-    "update": 1704203725975
+    "value": 182007.215455,
+    "update": 1704418220481
   },
   {
     "symbol": "GLMR_USDT.Y",
-    "value": 573469.3337000001,
-    "update": 1704203738748
+    "value": 170250.73440000002,
+    "update": 1704418211723
   },
   {
     "symbol": "GLM_USDT.Y",
-    "value": 12198.427,
-    "update": 1704203714080
+    "value": 13774.543,
+    "update": 1704418196658
   },
   {
     "symbol": "HNT_USDT.Y",
-    "value": 74530.8375,
-    "update": 1704203713918
+    "value": 20316.283000000003,
+    "update": 1704418218352
   },
   {
     "symbol": "JOE_USDT.Y",
-    "value": 72746.5824,
-    "update": 1704203743584
+    "value": 70191.2541,
+    "update": 1704418203132
   },
   {
     "symbol": "JST_USDT.Y",
-    "value": 16928.483,
-    "update": 1704203713945
+    "value": 19666.944,
+    "update": 1704418178911
   },
   {
     "symbol": "JTO_USDT.Y",
-    "value": 762822.6816,
-    "update": 1704203725779
+    "value": 504779.0487,
+    "update": 1704418220583
   },
   {
     "symbol": "LAI_USDT.Y",
-    "value": 47595.2362,
-    "update": 1704203738744
+    "value": 27175.635,
+    "update": 1704418203129
   },
   {
     "symbol": "LOKA_USDT.Y",
-    "value": 91287.6419,
-    "update": 1704203717176
+    "value": 87884.8915,
+    "update": 1704418218358
+  },
+  {
+    "symbol": "MBABYDOGE_USDT.Y",
+    "value": 138685.0735,
+    "update": 1704418218327
   },
   {
     "symbol": "MEME_USDT.Y",
-    "value": 1233797.8293,
-    "update": 1704203743503
+    "value": 1640050.6698,
+    "update": 1704418218104
   },
   {
     "symbol": "OKB_USDT.Y",
-    "value": 92813.5,
-    "update": 1704203726069
+    "value": 86705.574,
+    "update": 1704418206361
   },
   {
     "symbol": "OXT_USDT.Y",
-    "value": 84050.57579999999,
-    "update": 1704203725943
+    "value": 57506.0715,
+    "update": 1704418215147
   },
   {
     "symbol": "RAD_USDT.Y",
-    "value": 125894.81520000001,
-    "update": 1704203726085
+    "value": 137841.33239999998,
+    "update": 1704418220664
   },
   {
     "symbol": "RDNT_USDT.Y",
-    "value": 230895.7192,
-    "update": 1704203722592
+    "value": 218381.9608,
+    "update": 1704418214963
   },
   {
     "symbol": "REN_USDT.Y",
-    "value": 84737.9104,
-    "update": 1704203722715
+    "value": 56943.446,
+    "update": 1704418214999
   },
   {
     "symbol": "STEEM_USDT.Y",
-    "value": 32979.072,
-    "update": 1704203707695
+    "value": 36348.142,
+    "update": 1704418191158
   },
   {
     "symbol": "SUN_USDT.Y",
-    "value": 6790.9560323000005,
-    "update": 1704203738730
+    "value": 7268.735199600001,
+    "update": 1704418199974
   },
   {
     "symbol": "TRU_USDT.Y",
-    "value": 63596.2139,
-    "update": 1704203719524
+    "value": 38082.664,
+    "update": 1704418220731
   },
   {
     "symbol": "UNI_USDT.Y",
-    "value": 1563791.24,
-    "update": 1704203734624
+    "value": 863969.6510000001,
+    "update": 1704418218059
   },
   {
     "symbol": "USDC_USDT.Y",
-    "value": 203717.964,
-    "update": 1704203710897
+    "value": 156119.0324,
+    "update": 1704418100747
   },
   {
     "symbol": "VGX_USDT.Y",
-    "value": 266934.5321,
-    "update": 1704203738527
+    "value": 161104.1992,
+    "update": 1704418211867
   },
   {
     "symbol": "WAVES_USDT.Y",
-    "value": 1117374.773,
-    "update": 1704203719570
+    "value": 356732.544,
+    "update": 1704418202935
   },
   {
     "symbol": "1INCH_USDT.Y",
-    "value": 470270.2824,
-    "update": 1704203725970
+    "value": 374550.045,
+    "update": 1704418220591
   },
   {
     "symbol": "ACA_USDT.Y",
-    "value": 120756.4484,
-    "update": 1704203743680
+    "value": 102319.21059999999,
+    "update": 1704418215086
   },
   {
     "symbol": "ARDR_USDT.Y",
-    "value": 9800.7901,
-    "update": 1704203738737
+    "value": 5241.9348,
+    "update": 1704418179018
   },
   {
     "symbol": "ASTR_USDT.Y",
-    "value": 1176482.234,
-    "update": 1704203743511
+    "value": 1198886.0241,
+    "update": 1704418220515
   },
   {
     "symbol": "AXS_USDT.Y",
-    "value": 521537.19680000003,
-    "update": 1704203725969
+    "value": 434260.356,
+    "update": 1704418206184
   },
   {
     "symbol": "BNT_USDT.Y",
-    "value": 55695.9951,
-    "update": 1704203725922
+    "value": 57814.0344,
+    "update": 1704418220581
   },
   {
     "symbol": "CHR_USDT.Y",
-    "value": 135276.736,
-    "update": 1704203713925
+    "value": 162586.72,
+    "update": 1704418218256
   },
   {
     "symbol": "CREAM_USDT.Y",
-    "value": 68607.3783,
-    "update": 1704203738754
+    "value": 33628.8121,
+    "update": 1704418206264
   },
   {
     "symbol": "CRO_USDT.Y",
-    "value": 196601.92572,
-    "update": 1704203713935
+    "value": 139982.5448,
+    "update": 1704418203125
   },
   {
     "symbol": "CSPR_USDT.Y",
-    "value": 309101.1728,
-    "update": 1704203726078
+    "value": 297350.7338,
+    "update": 1704418191135
   },
   {
     "symbol": "CVC_USDT.Y",
-    "value": 38870.2004,
-    "update": 1704203707660
+    "value": 37017.119,
+    "update": 1704418187928
   },
   {
     "symbol": "DASH_USDT.Y",
-    "value": 271633.9682,
-    "update": 1704203713981
+    "value": 174146.4428,
+    "update": 1704418211922
   },
   {
     "symbol": "ENS_USDT.Y",
-    "value": 269646.43200000003,
-    "update": 1704203743460
+    "value": 429176.292,
+    "update": 1704418218175
   },
   {
     "symbol": "FLOKI_USDT.Y",
-    "value": 330424.9754,
-    "update": 1704203743407
+    "value": 238621.61839999998,
+    "update": 1704418218142
   },
   {
     "symbol": "FLOW_USDT.Y",
-    "value": 463993.152,
-    "update": 1704203734669
+    "value": 383948.3889,
+    "update": 1704418218084
   },
   {
     "symbol": "GROK_USDT.Y",
-    "value": 488531.2449,
-    "update": 1704203738705
+    "value": 235134.8594,
+    "update": 1704418203054
   },
   {
     "symbol": "IOST_USDT.Y",
-    "value": 81048.8689,
-    "update": 1704203738714
+    "value": 52287.452399999995,
+    "update": 1704418211828
   },
   {
     "symbol": "KLAY_USDT.Y",
-    "value": 90132.17599999999,
-    "update": 1704203743518
+    "value": 53917.7778,
+    "update": 1704418179128
   },
   {
     "symbol": "LQTY_USDT.Y",
-    "value": 313537.8897,
-    "update": 1704203729148
+    "value": 218975.9115,
+    "update": 1704418220669
   },
   {
     "symbol": "MASK_USDT.Y",
-    "value": 829599.0885000001,
-    "update": 1704203713877
+    "value": 714294.7137000001,
+    "update": 1704418220540
   },
   {
     "symbol": "MDT_USDT.Y",
-    "value": 118491.7986,
-    "update": 1704203719523
+    "value": 83240.3419,
+    "update": 1704418218238
   },
   {
     "symbol": "MKR_USDT.Y",
-    "value": 311603.4688,
-    "update": 1704203743616
+    "value": 314428.5144,
+    "update": 1704418220585
   },
   {
     "symbol": "NKN_USDT.Y",
-    "value": 63283.7656,
-    "update": 1704203731636
+    "value": 69244.7,
+    "update": 1704418211784
   },
   {
     "symbol": "OMG_USDT.Y",
-    "value": 145685.78699999998,
-    "update": 1704203725903
+    "value": 99366.4204,
+    "update": 1704418206326
   },
   {
     "symbol": "POLYX_USDT.Y",
-    "value": 69992.175,
-    "update": 1704203717224
+    "value": 35868.222,
+    "update": 1704418206291
   },
   {
     "symbol": "RUNE_USDT.Y",
-    "value": 1386128.3632,
-    "update": 1704203719537
+    "value": 1105659.3213,
+    "update": 1704418206161
   },
   {
     "symbol": "SNX_USDT.Y",
-    "value": 274915.89780000004,
-    "update": 1704203734822
+    "value": 136948.6228,
+    "update": 1704418202886
   },
   {
     "symbol": "THETA_USDT.Y",
-    "value": 151658.19,
-    "update": 1704203738731
+    "value": 88025.25150000001,
+    "update": 1704418218123
   },
   {
     "symbol": "TON_USDT.Y",
-    "value": 1066547.4921900001,
-    "update": 1704203719645
+    "value": 916669.9123999999,
+    "update": 1704418218293
   },
   {
     "symbol": "WAXP_USDT.Y",
-    "value": 18314.474400000003,
-    "update": 1704203740988
+    "value": 17286.2834,
+    "update": 1704418218219
   },
   {
     "symbol": "XTZ_USDT.Y",
-    "value": 137027.735,
-    "update": 1704203701812
+    "value": 109719.535,
+    "update": 1704418208680
   },
   {
     "symbol": "YFII_USDT.Y",
-    "value": 1259474.0676000002,
-    "update": 1704203734654
+    "value": 1147933.2085,
+    "update": 1704418220553
   },
   {
     "symbol": "YGG_USDT.Y",
-    "value": 793764.5564,
-    "update": 1704203743480
+    "value": 889147.4981999999,
+    "update": 1704418220588
   },
   {
     "symbol": "AKRO_USDT.Y",
-    "value": 120868.0824,
-    "update": 1704203719578
+    "value": 95732.9828,
+    "update": 1704418220780
   },
   {
     "symbol": "ALCX_USDT.Y",
-    "value": 45916.880900000004,
-    "update": 1704203743649
+    "value": 26344.407,
+    "update": 1704418194271
   },
   {
     "symbol": "ALGO_USDT.Y",
-    "value": 1044673.338,
-    "update": 1704203714019
+    "value": 610843.208,
+    "update": 1704418214951
   },
   {
     "symbol": "ATOM_USDT.Y",
-    "value": 820896.505,
-    "update": 1704203713803
+    "value": 577138.936,
+    "update": 1704418202911
   },
   {
     "symbol": "CAKE_USDT.Y",
-    "value": 738663.9312,
-    "update": 1704203738768
+    "value": 530914.3679000001,
+    "update": 1704418206159
   },
   {
     "symbol": "CHZ_USDT.Y",
-    "value": 506290.61699999997,
-    "update": 1704203722769
+    "value": 315298.95,
+    "update": 1704418194082
   },
   {
     "symbol": "COMP_USDT.Y",
-    "value": 231752.30000000002,
-    "update": 1704203738652
+    "value": 171765.33,
+    "update": 1704418220740
   },
   {
     "symbol": "CORE_USDT.Y",
-    "value": 187786.4241,
-    "update": 1704203671686
+    "value": 213286.52639999997,
+    "update": 1704418220492
   },
   {
     "symbol": "DEGO_USDT.Y",
-    "value": 20849.266499999998,
-    "update": 1704203731628
+    "value": 19777.7304,
+    "update": 1704418220745
   },
   {
     "symbol": "FLM_USDT.Y",
-    "value": 60728.79,
-    "update": 1704203713968
+    "value": 73425.98199999999,
+    "update": 1704418220691
   },
   {
     "symbol": "FLUX_USDT.Y",
-    "value": 132833.47340000002,
-    "update": 1704203722617
+    "value": 129996.459,
+    "update": 1704418211988
   },
   {
     "symbol": "FTM_USDT.Y",
-    "value": 1370937.7541,
-    "update": 1704203741040
+    "value": 982336.0905,
+    "update": 1704418218073
   },
   {
     "symbol": "HIFI_USDT.Y",
-    "value": 131801.0004,
-    "update": 1704203713785
+    "value": 120754.817,
+    "update": 1704418220568
   },
   {
     "symbol": "ILV_USDT.Y",
-    "value": 105828.35310000001,
-    "update": 1704203714012
+    "value": 69491.58840000001,
+    "update": 1704418218318
   },
   {
     "symbol": "INJ_USDT.Y",
-    "value": 1472355.9804,
-    "update": 1704203741053
+    "value": 1521482.5836000002,
+    "update": 1704418215013
   },
   {
     "symbol": "IOTX_USDT.Y",
-    "value": 136909.3814,
-    "update": 1704203713893
+    "value": 100010.7862,
+    "update": 1704418218082
   },
   {
     "symbol": "LDO_USDT.Y",
-    "value": 562502.6898,
-    "update": 1704203725929
+    "value": 526743.7824,
+    "update": 1704418220678
   },
   {
     "symbol": "MINA_USDT.Y",
-    "value": 551915.0034500001,
-    "update": 1704203741069
+    "value": 440885.0856900001,
+    "update": 1704418208557
   },
   {
     "symbol": "PHB_USDT.Y",
-    "value": 70255.3033,
-    "update": 1704203705072
+    "value": 56100.564,
+    "update": 1704418199823
   },
   {
     "symbol": "RAY_USDT.Y",
-    "value": 363504.9687,
-    "update": 1704203743479
+    "value": 236509.665,
+    "update": 1704418203063
   },
   {
     "symbol": "REQ_USDT.Y",
-    "value": 13710.9468,
-    "update": 1704203741244
+    "value": 14590.372800000001,
+    "update": 1704418220636
   },
   {
     "symbol": "RSR_USDT.Y",
-    "value": 109470.9096,
-    "update": 1704203743435
+    "value": 63517.8752,
+    "update": 1704418187723
   },
   {
     "symbol": "SEI_USDT.Y",
-    "value": 1483097.2192000002,
-    "update": 1704203731448
+    "value": 1418443.236,
+    "update": 1704418208591
   },
   {
     "symbol": "SHIB_USDT.Y",
-    "value": 5208660.9667,
-    "update": 1704203741062
+    "value": 4812333.686550001,
+    "update": 1704418220516
   },
   {
     "symbol": "SOLS_USDT.Y",
-    "value": 1921396.926,
-    "update": 1704203734757
+    "value": 1229768.627,
+    "update": 1704418208541
   },
   {
     "symbol": "STG_USDT.Y",
-    "value": 72816.7084,
-    "update": 1704203741037
+    "value": 28735.973,
+    "update": 1704418220756
   },
   {
     "symbol": "STPT_USDT.Y",
-    "value": 11042.288100000002,
-    "update": 1704203743653
+    "value": 100652.90000000001,
+    "update": 1704418202922
   },
   {
     "symbol": "VMPX_USDT.Y",
-    "value": 108355.041,
-    "update": 1704203714031
+    "value": 67300.394,
+    "update": 1704418218250
   },
   {
     "symbol": "XCH_USDT.Y",
-    "value": 225264.1839,
-    "update": 1704203726065
+    "value": 159614.2198,
+    "update": 1704418166853
   },
   {
     "symbol": "XMR_USDT.Y",
-    "value": 266337.045,
-    "update": 1704203726067
+    "value": 275662.9304,
+    "update": 1704418196713
   },
   {
     "symbol": "XNO_USDT.Y",
-    "value": 18690.2945,
-    "update": 1704203722611
+    "value": 10247.0004,
+    "update": 1704418182242
   },
   {
     "symbol": "ZEC_USDT.Y",
-    "value": 627170.2505999999,
-    "update": 1704203738513
+    "value": 272755.882,
+    "update": 1704418218245
   },
   {
     "symbol": "AAVE_USDT.Y",
-    "value": 620704.5168000001,
-    "update": 1704203731441
+    "value": 518840.91349999997,
+    "update": 1704418218102
   },
   {
     "symbol": "ALPHA_USDT.Y",
-    "value": 127981.7667,
-    "update": 1704203729018
+    "value": 79246.4448,
+    "update": 1704418220666
   },
   {
     "symbol": "ANKR_USDT.Y",
-    "value": 152868.6405,
-    "update": 1704203719677
+    "value": 100811.79100000001,
+    "update": 1704418182269
   },
   {
     "symbol": "APE_USDT.Y",
-    "value": 802478.9400000001,
-    "update": 1704203734721
+    "value": 788374.24,
+    "update": 1704418214956
   },
   {
     "symbol": "ARPA_USDT.Y",
-    "value": 133214.5136,
-    "update": 1704203738680
+    "value": 64859.946,
+    "update": 1704418202983
   },
   {
     "symbol": "AURORA_USDT.Y",
-    "value": 84872.931,
-    "update": 1704203719663
+    "value": 77087.5875,
+    "update": 1704418211973
   },
   {
     "symbol": "BTC_USD.Y",
-    "value": 7906091,
-    "update": 1704203703474
+    "value": 7863204,
+    "update": 1704418216856
   },
   {
     "symbol": "CETUS_USDT.Y",
-    "value": 193573.90780000002,
-    "update": 1704203710830
+    "value": 138429.2598,
+    "update": 1704418203156
   },
   {
     "symbol": "CTSI_USDT.Y",
-    "value": 325920.2304,
-    "update": 1704203731667
+    "value": 270833.4705,
+    "update": 1704418208713
   },
   {
     "symbol": "DAR_USDT.Y",
-    "value": 66347.2128,
-    "update": 1704203674746
+    "value": 44975.8736,
+    "update": 1704418208728
   },
   {
     "symbol": "FUN_USDT.Y",
-    "value": 31424.1096,
-    "update": 1704203705248
+    "value": 15856.7584,
+    "update": 1704418218240
   },
   {
     "symbol": "HOOK_USDT.Y",
-    "value": 516597.2896,
-    "update": 1704203713884
+    "value": 376907.26359999995,
+    "update": 1704418208467
   },
   {
     "symbol": "ICX_USDT.Y",
-    "value": 86454.8792,
-    "update": 1704203701796
+    "value": 45885.872200000005,
+    "update": 1704418184554
   },
   {
     "symbol": "KNC_USDT.Y",
-    "value": 110885.5209,
-    "update": 1704203705235
+    "value": 86364.6568,
+    "update": 1704418206294
   },
   {
     "symbol": "MATIC_USDT.Y",
-    "value": 2914227.0519999997,
-    "update": 1704203734724
+    "value": 2690680.6750000003,
+    "update": 1704418220549
   },
   {
     "symbol": "MYRIA_USDT.Y",
-    "value": 70128.8676,
-    "update": 1704203738795
+    "value": 19611.8661,
+    "update": 1704418206212
   },
   {
     "symbol": "NEO_USDT.Y",
-    "value": 238839.552,
-    "update": 1704203713994
+    "value": 160064.455,
+    "update": 1704418220733
   },
   {
     "symbol": "ONG_USDT.Y",
-    "value": 17087.514,
-    "update": 1704203731692
+    "value": 16245.488000000001,
+    "update": 1704418202984
   },
   {
     "symbol": "OOKI_USDT.Y",
-    "value": 27162.819600000003,
-    "update": 1704203701927
+    "value": 12706.9696,
+    "update": 1704418143146
   },
   {
     "symbol": "PENDLE_USDT.Y",
-    "value": 125763.5232,
-    "update": 1704203719504
+    "value": 77189.456,
+    "update": 1704418218193
   },
   {
     "symbol": "RIF_USDT.Y",
-    "value": 34176.6555,
-    "update": 1704203722897
+    "value": 19900.3392,
+    "update": 1704418206335
   },
   {
     "symbol": "RLC_USDT.Y",
-    "value": 59283.097,
-    "update": 1704203716976
+    "value": 47795.749,
+    "update": 1704418199961
   },
   {
     "symbol": "RNDR_USDT.Y",
-    "value": 1042730.04,
-    "update": 1704203722613
+    "value": 899334.7999999999,
+    "update": 1704418218105
   },
   {
     "symbol": "ROSE_USDT.Y",
-    "value": 324980.78900000005,
-    "update": 1704203741274
+    "value": 207910.233,
+    "update": 1704418218333
   },
   {
     "symbol": "SC_USDT.Y",
-    "value": 29629.8133,
-    "update": 1704203717277
+    "value": 18796.0125,
+    "update": 1704418206349
   },
   {
     "symbol": "SRM_USDT.Y",
-    "value": 204209.2836,
-    "update": 1704203740994
+    "value": 114398.564,
+    "update": 1704418215082
   },
   {
     "symbol": "SUI_USDT.Y",
-    "value": 1283244.957,
-    "update": 1704203731534
+    "value": 1257899.658,
+    "update": 1704418220611
   },
   {
     "symbol": "TOMI_USDT.Y",
-    "value": 101529.168,
-    "update": 1704203710863
+    "value": 65841.49,
+    "update": 1704418203143
   },
   {
     "symbol": "TRB_USDT.Y",
-    "value": 7176050.4072,
-    "update": 1704203743430
+    "value": 5504457.783900001,
+    "update": 1704418218130
   },
   {
     "symbol": "UNFI_USDT.Y",
-    "value": 289037.42280000006,
-    "update": 1704203741082
+    "value": 186905.6709,
+    "update": 1704418206106
   },
   {
     "symbol": "XEN_USDT.Y",
-    "value": 568845.096,
-    "update": 1704203743668
+    "value": 540957.755,
+    "update": 1704418220689
   },
   {
     "symbol": "XRP_USDT.Y",
-    "value": 5577123.824999999,
-    "update": 1704203713900
+    "value": 3748454.3249999997,
+    "update": 1704418218083
   },
   {
     "symbol": "XVG_USDT.Y",
-    "value": 77191.728,
-    "update": 1704203714050
+    "value": 28625.2512,
+    "update": 1704418203082
   },
   {
     "symbol": "BAND_USDT.Y",
-    "value": 178174.87240000002,
-    "update": 1704203743428
+    "value": 143800.52180000002,
+    "update": 1704418206340
   },
   {
     "symbol": "BCH_USDT.Y",
-    "value": 1706926.8720000002,
-    "update": 1704203725864
+    "value": 1276486.533,
+    "update": 1704418218057
   },
   {
     "symbol": "CTC_USDT.Y",
-    "value": 43801.9487,
-    "update": 1704203722896
+    "value": 66570.0932,
+    "update": 1704418215035
   },
   {
     "symbol": "GFT_USDT.Y",
-    "value": 184797.2555,
-    "update": 1704203683434
+    "value": 161335.2612,
+    "update": 1704418218228
   },
   {
     "symbol": "GMX_USDT.Y",
-    "value": 180355.2238,
-    "update": 1704203713943
+    "value": 72064.6848,
+    "update": 1704418202967
   },
   {
     "symbol": "GNS_USDT.Y",
-    "value": 50816.688,
-    "update": 1704203741193
+    "value": 28269.345,
+    "update": 1704418211873
   },
   {
     "symbol": "HOT_USDT.Y",
-    "value": 257077.16999999998,
-    "update": 1704203722593
+    "value": 79262.968,
+    "update": 1704418215001
   },
   {
     "symbol": "ID_USDT.Y",
-    "value": 369549.68,
-    "update": 1704203734625
+    "value": 260475.8395,
+    "update": 1704418218264
   },
   {
     "symbol": "LINA_USDT.Y",
-    "value": 370274.7608,
-    "update": 1704203725839
+    "value": 313121.47229999996,
+    "update": 1704418218066
   },
   {
     "symbol": "LOOM_USDT.Y",
-    "value": 270533.874,
-    "update": 1704203716980
+    "value": 165465.6857,
+    "update": 1704418218146
   },
   {
     "symbol": "LUNA_USDT.Y",
-    "value": 655457.7188,
-    "update": 1704203713848
+    "value": 572242.5536,
+    "update": 1704418218094
   },
   {
     "symbol": "MOVR_USDT.Y",
-    "value": 542786.43055,
-    "update": 1704203743494
+    "value": 625728.9353400001,
+    "update": 1704418218223
   },
   {
     "symbol": "NTRN_USDT.Y",
-    "value": 156823.21500000003,
-    "update": 1704203729170
+    "value": 92425.284,
+    "update": 1704418220513
   },
   {
     "symbol": "ONT_USDT.Y",
-    "value": 117867.0792,
-    "update": 1704203734735
+    "value": 61974.679500000006,
+    "update": 1704418215079
   },
   {
     "symbol": "REEF_USDT.Y",
-    "value": 109347.86720000001,
-    "update": 1704203731637
+    "value": 83094.0585,
+    "update": 1704418220710
   },
   {
     "symbol": "STARL_USDT.Y",
-    "value": 157201.9585,
-    "update": 1704203738703
+    "value": 87004.1295,
+    "update": 1704418218255
   },
   {
     "symbol": "STORJ_USDT.Y",
-    "value": 380362.347,
-    "update": 1704203713769
+    "value": 194065.69280000002,
+    "update": 1704418218127
+  },
+  {
+    "symbol": "SWEAT_USDT.Y",
+    "value": 9380.2632,
+    "update": 1704418208654
   },
   {
     "symbol": "VRA_USDT.Y",
-    "value": 162486.13881,
-    "update": 1704203717270
+    "value": 95108.6106,
+    "update": 1704418203083
   },
   {
     "symbol": "WOJAK_USDT.Y",
-    "value": 58104.6892,
-    "update": 1704203726079
+    "value": 48966.453,
+    "update": 1704418203151
   },
   {
     "symbol": "XLM_USDT.Y",
-    "value": 652339.6588,
-    "update": 1704203713875
+    "value": 440157.7746,
+    "update": 1704418218306
   },
   {
     "symbol": "ZEN_USDT.Y",
-    "value": 405401.2881,
-    "update": 1704203738552
+    "value": 331705.83420000004,
+    "update": 1704418220680
   },
   {
     "symbol": "ZRX_USDT.Y",
-    "value": 152799.3302,
-    "update": 1704203719536
+    "value": 94304.4567,
+    "update": 1704418218058
   }
 ]

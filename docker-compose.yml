@@ -2,69 +2,85 @@ version: '3.8'
 
 services:
   db:
-    image: timescale/timescaledb:latest-pg12
+    image: timescale/timescaledb-ha:pg16-all
     environment:
-      - POSTGRES_DB=gateio
-      - POSTGRES_USER=open
-      - POSTGRES_PASSWORD=interest
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
     ports:
       - "5432:5432"
+    networks:
+      - mynetwork
     volumes:
       - timescaledb_data:/var/lib/postgresql/data
-  gateio-ws:
-    build:
-      context: ./gateio_ws
-    environment:
-      - TIMESCALE_DB=gateio
-    ports:
-      - "3003:3003"
-    networks:
-      - mynetwork
-    # volumes:
-    # - ws_data:/usr/src/app
 
-  redis:
-    image: "redis:latest"
-    ports:
-      - "6379:6379"
-    environment:
-      - REDIS_REPLICATION_MODE=master
-      - REDIS_PASSWORD=your_password
-      - REDIS_REQUIREPASS=another_password
+  dbeaver:
+    image: dbeaver/cloudbeaver:22.1.1
+    container_name: CloudBeaver
+    restart: unless-stopped
     volumes:
-      - redis-data:/data
+      - dbeaver-data:/opt/cloudbeaver/workspace
+    ports:
+      - 5021:8978
     networks:
       - mynetwork
 
-  gateio-api:
-    build:
-      context: ./gateio_api
-    ports:
-      - "3001:3001"
-    networks:
-      - mynetwork
-    # volumes:
-    #   - api_data:/usr/src/app
+  # gateio-ws:
+  #   build:
+  #     context: ./gateio_ws
+  #   environment:
+  #     - TIMESCALE_DB=gateio
+  #   ports:
+  #     - "3003:3003"
+  #   networks:
+  #     - mynetwork
+  #   # volumes:
+  #   # - ws_data:/usr/src/app
 
-  coinalyze:
-    build:
-      context: ./coinalyze
-    ports:
-      - "8008:8008"
-    networks:
-      - mynetwork
-    environment:
-      - POSTGRES_DB=coinalyze
-      - POSTGRES_USER=open
-      - POSTGRES_PASSWORD=interest
-    volumes:
-      - coinalyze_data:/usr/src/app
+  # redis:
+  #   image: "redis:latest"
+  #   ports:
+  #     - "6379:6379"
+  #   environment:
+  #     - REDIS_REPLICATION_MODE=master
+  #     - REDIS_PASSWORD=your_password
+  #     - REDIS_REQUIREPASS=another_password
+  #   volumes:
+  #     - redis-data:/data
+  #   networks:
+  #     - mynetwork
+
+  # gateio-api:
+  #   build:
+  #     context: ./gateio_api
+  #   ports:
+  #     - "3001:3001"
+  #   networks:
+  #     - mynetwork
+  #   # volumes:
+  #   #   - api_data:/usr/src/app
+
+  # coinalyze:
+  #   build:
+  #     context: ./coinalyze
+  #   ports:
+  #     - "8008:8008"
+  #   networks:
+  #     - mynetwork
+  #   environment:
+  #     - POSTGRES_HOST=db
+  #     - POSTGRES_DB=coinalyze
+  #     - POSTGRES_USER=open
+  #     - POSTGRES_PASSWORD=interest
+  #   volumes:
+  #     - coinalyze_data:/usr/src/app
 
 
 volumes:
-  redis-data:
+  # redis-data:
+  # coinalyze_data:
+  dbeaver-data:
   timescaledb_data:
-  coinalyze_data:
   # ws_data:
   # api_data:
   # cronjob_data:
