@@ -11,19 +11,19 @@ services:
       - "5432:5432"
     networks:
       - mynetwork
-    volumes:
-      - timescaledb_data:/var/lib/postgresql/data
+    # volumes:
+    #   - timescaledb_data:/var/lib/postgresql/data
 
-  dbeaver:
-    image: dbeaver/cloudbeaver:22.1.1
-    container_name: CloudBeaver
-    restart: unless-stopped
-    volumes:
-      - dbeaver-data:/opt/cloudbeaver/workspace
-    ports:
-      - 5021:8978
-    networks:
-      - mynetwork
+  # dbeaver:
+  #   image: dbeaver/cloudbeaver:22.1.1
+  #   container_name: CloudBeaver
+  #   restart: unless-stopped
+  #   volumes:
+  #     - dbeaver-data:/opt/cloudbeaver/workspace
+  #   ports:
+  #     - 5021:8978
+  #   networks:
+  #     - mynetwork
 
   # gateio-ws:
   #   build:
@@ -76,11 +76,11 @@ services:
   #     - coinalyze_data:/usr/src/app
 
 
-volumes:
+# volumes:
   # redis-data:
   # coinalyze_data:
-  dbeaver-data:
-  timescaledb_data:
+  # dbeaver-data:
+  # timescaledb_data:
   # ws_data:
   # api_data:
   # cronjob_data:

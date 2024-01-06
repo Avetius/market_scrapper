@@ -34,6 +34,10 @@ def create_timescaledb_database(database_name, user, password, host):
                 # Enable TimescaleDB extension
                 new_db_cursor.execute("CREATE EXTENSION IF NOT EXISTS timescaledb CASCADE;")
             new_db_conn.close()
+    conn.close()
+
+    conn = psycopg2.connect(dbname=database_name, user=user, password=password, host=host)
+    conn.autocommit = True  # Ensures that the queries will be executed immediately
 
     with conn.cursor() as cursor:
         # Create the exchange table if it doesn't exist
@@ -46,28 +50,6 @@ def create_timescaledb_database(database_name, user, password, host):
         """)
         # Convert the exchange table to a hypertable, if not already a hypertable
         # cursor.execute("SELECT create_hypertable('exchange', 'code') ON CONFLICT DO NOTHING;")
-
-        # Create the future table if it doesn't exist
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS future (
-                id SERIAL PRIMARY KEY,
-                symbol VARCHAR NOT NULL,
-                exchange VARCHAR NOT NULL,
-                symbol_on_exchange VARCHAR NOT NULL,
-                base_asset VARCHAR NOT NULL,
-                quote_asset VARCHAR NOT NULL,
-                expire_at BIGINT,
-                has_buy_sell_data BOOLEAN NOT NULL,
-                is_perpetual BOOLEAN NOT NULL,
-                margined VARCHAR NOT NULL,
-                oi_lq_vol_denominated_in VARCHAR NOT NULL,
-                has_long_short_ratio_data BOOLEAN NOT NULL,
-                has_ohlcv_data BOOLEAN NOT NULL
-            );
-        """)
-
-        # Convert the future table to a hypertable, if not already a hypertable
-        # cursor.execute("SELECT create_hypertable('future', 'exchange') ON CONFLICT DO NOTHING;")
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS all_futures (
@@ -91,7 +73,7 @@ def create_timescaledb_database(database_name, user, password, host):
             CREATE TABLE IF NOT EXISTS gateio_future (
                 id SERIAL PRIMARY KEY,
                 symbol VARCHAR NOT NULL,
-                exchange_id INTEGER REFERENCES gateio_future(id)
+                exchange_id INTEGER REFERENCES exchange(id)
             );
         """)
 
@@ -100,44 +82,47 @@ def create_timescaledb_database(database_name, user, password, host):
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS gateio_oi (
-                id SERIAL PRIMARY KEY,
+                time TIMESTAMPTZ NOT NULL,
                 symbol_id INTEGER REFERENCES gateio_future(id),
                 symbol VARCHAR NOT NULL,
                 value FLOAT NOT NULL,
-                update BIGINT NOT NULL
+                update BIGINT NOT NULL,
+                PRIMARY KEY (update, symbol_id)
             );
         """)
 
         # Convert the future table to a hypertable, if not already a hypertable
-        cursor.execute("SELECT create_hypertable('gateio_oi', 'update')")
+        cursor.execute("""SELECT create_hypertable('gateio_oi', 'update');""") # , if_not_exists => TRUE, create_default_indexes => TRUE
 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS gateio_price (
-                id SERIAL PRIMARY KEY,
-                symbol VARCHAR NOT NULL,
-                value FLOAT NOT NULL,
-                update BIGINT NOT NULL
-            );
-        """)
-
-        # Convert the future table to a hypertable, if not already a hypertable
-        cursor.execute("SELECT create_hypertable('gateio_price', 'update')")
-
-        cursor.execute("""
-            CREATE TABLE IF NOT EXISTS gateio_delta (
-                id SERIAL PRIMARY KEY,
+                time TIMESTAMPTZ NOT NULL,
                 symbol_id INTEGER REFERENCES gateio_future(id),
                 symbol VARCHAR NOT NULL,
                 value FLOAT NOT NULL,
-                update BIGINT NOT NULL
+                update BIGINT NOT NULL,
+                PRIMARY KEY (update, symbol_id)
             );
         """)
 
-        # Convert the future table to a hypertable, if not already a hypertable
-        cursor.execute("SELECT create_hypertable('gateio_delta', 'update')")
+        # # Convert the future table to a hypertable, if not already a hypertable
+        cursor.execute("SELECT create_hypertable('gateio_price', 'update');")
+
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS gateio_delta (
+                time TIMESTAMPTZ NOT NULL,
+                symbol_id INTEGER REFERENCES gateio_future(id),
+                symbol VARCHAR NOT NULL,
+                value FLOAT NOT NULL,
+                update BIGINT NOT NULL,
+                PRIMARY KEY (update, symbol_id)
+            );
+        """)
+
+        # # Convert the future table to a hypertable, if not already a hypertable
+        cursor.execute("SELECT create_hypertable('gateio_delta', 'update');")
 
     conn.close()
-
 
 
 if __name__ == '__main__':
