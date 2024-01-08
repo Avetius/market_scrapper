@@ -1,8 +1,10 @@
 from sqlalchemy import create_engine, Column, Integer, Float, BigInteger, Boolean, String, TIMESTAMP, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import os
+from sqlalchemy.sql import func
+from datetime import datetime
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
 host = os.getenv("POSTGRES_HOST")
@@ -21,9 +23,9 @@ class Exchange(Base):
 class Futures(Base):
     __tablename__ = 'all_futures'
     id = Column(Integer, primary_key=True)
-    symbol = Column(String, unique=True)
-    exchange = Column(String, unique=True)
-    symbol_on_exchange = Column(String, unique=True)
+    symbol = Column(String)
+    exchange = Column(String)
+    symbol_on_exchange = Column(String)
     base_asset = Column(String)
     quote_asset = Column(String)
     expire_at = Column(BigInteger)
@@ -33,45 +35,43 @@ class Futures(Base):
     oi_lq_vol_denominated_in = Column(String)
     has_long_short_ratio_data = Column(Boolean)
     has_ohlcv_data = Column(Boolean)
-    
+
 class Symbol(Base):
     __tablename__ = 'gateio_future'
     id = Column(Integer, primary_key=True)
     symbol = Column(String, unique=True)
-    exchange_id = Column(Integer, ForeignKey('exchange.id'))
+    exchange_code = Column(String, ForeignKey('exchange.code'))
 
 class GateioOI(Base):
     __tablename__ = 'gateio_oi'
-    time = Column(TIMESTAMP, nullable=False)
-    symbol_id = Column(Integer, ForeignKey('gateio_future.id'), primary_key=True)
-    symbol = Column(String, unique=True, nullable=False)
+    time = Column(TIMESTAMP, default=datetime.utcnow, nullable=False)
+    symbol = Column(String, ForeignKey('gateio_future.symbol'), primary_key=True)
     value = Column(Float, nullable=False)
     update = Column(BigInteger, primary_key=True)
 
 class GateioPrice(Base):
     __tablename__ = 'gateio_price'
     time = Column(TIMESTAMP, nullable=False)
-    symbol_id = Column(Integer, ForeignKey('gateio_future.id'), primary_key=True)
-    symbol = Column(String, unique=True, nullable=False)
+    symbol = Column(String, ForeignKey('gateio_future.symbol'), primary_key=True)
     value = Column(Float, nullable=False)
     update = Column(BigInteger, primary_key=True)
 
 class GateioDelta(Base):
     __tablename__ = 'gateio_delta'
     time = Column(TIMESTAMP, nullable=False)
-    symbol_id = Column(Integer, ForeignKey('gateio_future.id'), primary_key=True)
-    symbol = Column(String, unique=True, nullable=False)
+    symbol_name = Column(String, ForeignKey('gateio_future.symbol'), primary_key=True)
     value = Column(Float, nullable=False)
     update = Column(BigInteger, primary_key=True)
 
+
+engine = create_engine(f"postgresql://{user}:{password}@{host}:5432/{database_name}")
+Base.metadata.create_all(engine)
+
+Session = sessionmaker(bind=engine)
+session = Session()
+
+# Example usage
 if __name__ == '__main__':
-    # Example usage
-    engine = create_engine(f"postgresql://{user}:{password}@{host}:5432/{database_name}")
-    Base.metadata.create_all(engine)
-
-    Session = sessionmaker(bind=engine)
-    session = Session()
-
     # Creating and adding a new record
     record = Exchange(code='a', name='alpaca')
     session.add(record)
@@ -80,3 +80,4 @@ if __name__ == '__main__':
     # Querying the record
     queried_record = session.query(Exchange).first()
     print(queried_record.code)
+
