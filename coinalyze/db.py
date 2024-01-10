@@ -46,7 +46,7 @@ def create_timescaledb_database(database_name, user, password, host):
                 id SERIAL PRIMARY KEY,
                 name VARCHAR NOT NULL,
                 code VARCHAR NOT NULL
-            );
+            00);
         """)
         # Convert the exchange table to a hypertable, if not already a hypertable
         # cursor.execute("SELECT create_hypertable('exchange', 'code') ON CONFLICT DO NOTHING;")
@@ -83,13 +83,12 @@ def create_timescaledb_database(database_name, user, password, host):
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS gateio_oi (
                 time TIMESTAMPTZ NOT NULL,
-                symbol_id INTEGER REFERENCES gateio_future(id),
                 symbol VARCHAR NOT NULL,
                 value FLOAT NOT NULL,
                 update BIGINT NOT NULL,
                 PRIMARY KEY (update, symbol_id)
             );
-        """)
+        """) # symbol_id INTEGER REFERENCES gateio_future(id),
 
         # Convert the future table to a hypertable, if not already a hypertable
         cursor.execute("""SELECT create_hypertable('gateio_oi', 'update');""") # , if_not_exists => TRUE, create_default_indexes => TRUE
@@ -97,13 +96,12 @@ def create_timescaledb_database(database_name, user, password, host):
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS gateio_price (
                 time TIMESTAMPTZ NOT NULL,
-                symbol_id INTEGER REFERENCES gateio_future(id),
                 symbol VARCHAR NOT NULL,
                 value FLOAT NOT NULL,
                 update BIGINT NOT NULL,
                 PRIMARY KEY (update, symbol_id)
             );
-        """)
+        """) # symbol_id INTEGER REFERENCES gateio_future(id), 
 
         # # Convert the future table to a hypertable, if not already a hypertable
         cursor.execute("SELECT create_hypertable('gateio_price', 'update');")
@@ -111,13 +109,12 @@ def create_timescaledb_database(database_name, user, password, host):
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS gateio_delta (
                 time TIMESTAMPTZ NOT NULL,
-                symbol_id INTEGER REFERENCES gateio_future(id),
                 symbol VARCHAR NOT NULL,
                 value FLOAT NOT NULL,
                 update BIGINT NOT NULL,
                 PRIMARY KEY (update, symbol_id)
             );
-        """)
+        """) # symbol_id INTEGER REFERENCES gateio_future(id),
 
         # # Convert the future table to a hypertable, if not already a hypertable
         cursor.execute("SELECT create_hypertable('gateio_delta', 'update');")

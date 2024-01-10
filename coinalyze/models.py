@@ -1,7 +1,8 @@
-from sqlalchemy import create_engine, Column, Integer, Float, BigInteger, Boolean, String, TIMESTAMP, ForeignKey
+from sqlalchemy import create_engine, insert, Column, Integer, Float, BigInteger, Boolean, String, TIMESTAMP, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.dialects.postgresql import insert
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy.sql import func
+# from sqlalchemy.sql import func
 from datetime import datetime
 from dotenv import load_dotenv
 import os
@@ -23,7 +24,7 @@ class Exchange(Base):
 class Futures(Base):
     __tablename__ = 'all_futures'
     id = Column(Integer, primary_key=True)
-    symbol = Column(String)
+    symbol = Column(String, unique=True)
     exchange = Column(String)
     symbol_on_exchange = Column(String)
     base_asset = Column(String)
@@ -68,14 +69,22 @@ engine = create_engine(f"postgresql://{user}:{password}@{host}:5432/{database_na
 Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
-session = Session()
 
 # Example usage
 if __name__ == '__main__':
-    # Creating and adding a new record
-    record = Exchange(code='a', name='alpaca')
-    session.add(record)
+    session = Session()
+    insert_stmt = insert(Exchange).values(
+        code='a',
+        name='alpaca'
+    )
+
+    # Execute the statement
+    session.execute(insert_stmt)
     session.commit()
+    # Creating and adding a new record
+    # record = Exchange(code='a', name='alpaca')
+    # session.add(record)
+    # session.commit()
 
     # Querying the record
     queried_record = session.query(Exchange).first()
