@@ -40,6 +40,7 @@ apis = ['2b177986-faf6-4d0f-984a-0f4bc5ac6ac9',
         '2b177986-faf6-4d0f-984a-0f4bc5ac6ac9',
         '2b177986-faf6-4d0f-984a-0f4bc5ac6ac9']
 
+print(f"arr length >>> ", arr);
 api = apis[0]
 now = int(time.time())
 before = now - 172800 #12 hour data in seconds

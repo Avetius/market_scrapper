@@ -100,7 +100,7 @@ def get_gateio_oi():
                 gate_future_market.append({'symbol': item['symbol'], 'exchange_code': item["exchange"]})
 
         stmt = insert(Symbol).values(gate_future_market)
-            
+
         stmt = stmt.on_conflict_do_nothing()
         session.execute(stmt)
         session.commit()
@@ -129,7 +129,7 @@ def get_gateio_oi():
             session.execute(stmt)
             session.commit()
 
-            print(f"open_interest >>> {open_interest}")
+            print(f"open_interest length >>> {len(open_interest)}")
 
 
         session.close()

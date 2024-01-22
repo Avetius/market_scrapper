@@ -18,7 +18,7 @@ def subscribe_channel(channel):
         pubsub.subscribe(channel)
 
         print(f' [*] Subscribed to channel: {channel}. Waiting for messages.')
-        
+
         # Start listening for messages
         for message in pubsub.listen():
             callback(message)
@@ -77,7 +77,7 @@ async def wait_for_redis(host=host, port=port):
 #         # redis_client.zadd(key, {value: timestamp})
 #         message_to_send = timestamp + " Hello, Redis Pub/Sub!"
 #         publish_message(channel_to_publish, str(message_to_send))
-        
+
 #     except TimeoutError as e:
 #         print(f"Error: {e}")
 #         # Handle the timeout error

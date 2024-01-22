@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine, insert, Column, Integer, Float, BigInteger, Boolean, String, TIMESTAMP, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.dialects.postgresql import insert
+from db import create_timescaledb_database
 from sqlalchemy.orm import sessionmaker
 # from sqlalchemy.sql import func
 from datetime import datetime
@@ -9,10 +10,11 @@ import os
 
 load_dotenv()
 host = os.getenv("POSTGRES_HOST")
-database_name = os.getenv("POSTGRES_DB")
 user = os.getenv("POSTGRES_USER")
+database_name = os.getenv("POSTGRES_DB")
 password = os.getenv("POSTGRES_PASSWORD")
 
+create_timescaledb_database(database_name, user, password, host)
 Base = declarative_base()
 
 class Exchange(Base):

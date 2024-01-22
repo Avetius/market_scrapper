@@ -11,9 +11,29 @@ services:
       - "5432:5432"
     networks:
       - mynetwork
-    # volumes:
-    #   - timescaledb_data:/var/lib/postgresql/data
+    volumes:
+      - timescaledb_data:/var/lib/postgresql/data
 
+  rabbitmq:
+    image: "rabbitmq:latest"
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"  # RabbitMQ default port
+      - "15672:15672"  # RabbitMQ management UI
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin 
+      - RABBITMQ_DEFAULT_PASS=admin
+      - RABBITMQ_DEFAULT_VHOST=rabbithost
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      - ./init-rabbitmq.sh:/docker-entrypoint-initdb.d/init-rabbitmq.sh:ro
+    ulimits:
+      nofile:
+        soft: 65536
+        hard: 65536
+    networks:
+      - mynetwork
+  
   # dbeaver:
   #   image: dbeaver/cloudbeaver:22.1.1
   #   container_name: CloudBeaver
@@ -65,22 +85,23 @@ services:
   #     context: ./coinalyze
   #   ports:
   #     - "8008:8008"
-  #   networks:
-  #     - mynetwork
   #   environment:
   #     - POSTGRES_HOST=db
   #     - POSTGRES_DB=coinalyze
-  #     - POSTGRES_USER=open
-  #     - POSTGRES_PASSWORD=interest
+  #     - POSTGRES_USER=admin
+  #     - POSTGRES_PASSWORD=admin
   #   volumes:
   #     - coinalyze_data:/usr/src/app
+  #   networks:
+  #     - mynetwork
 
 
-# volumes:
-  # redis-data:
+volumes:
+  timescaledb_data:
   # coinalyze_data:
+  rabbitmq_data:
+  # redis-data:
   # dbeaver-data:
-  # timescaledb_data:
   # ws_data:
   # api_data:
   # cronjob_data:
