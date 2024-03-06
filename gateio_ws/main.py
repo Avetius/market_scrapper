@@ -40,7 +40,7 @@ async def main():
         futures_conn = Connection(Configuration(app='futures', settle='usdt', test_net=False))
         # default callback will be used if callback not provided when initializing channels
         spotchannel = SpotPublicTradeChannel(spot_conn, my_callback)
-        spotchannel.subscribe(trading_pairs) # ["GT_USDT"] 
+        spotchannel.subscribe(trading_pairs) # ["GT_USDT"]
 
         futurechannel = FuturesPublicTradeChannel(futures_conn, my_callback) # lambda c, r: print(r.result)
         futurechannel.subscribe(trading_pairs) # ["BTC_USDT"]

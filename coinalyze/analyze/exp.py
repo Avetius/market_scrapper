@@ -1,5 +1,6 @@
 from sqlalchemy import create_engine, insert, Column, Integer, Float, BigInteger, Boolean, String, TIMESTAMP, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
+# from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import declarative_base
 from sqlalchemy.dialects.postgresql import insert
 from db import create_timescaledb_database
 from sqlalchemy.orm import sessionmaker
@@ -81,4 +82,3 @@ if __name__ == '__main__':
     plt.title('GateioOI Data Plot')
     plt.legend()
     plt.show()
-

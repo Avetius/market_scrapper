@@ -45,30 +45,30 @@ services:
   #   networks:
   #     - mynetwork
 
-  # gateio-ws:
-  #   build:
-  #     context: ./gateio_ws
-  #   environment:
-  #     - TIMESCALE_DB=gateio
-  #   ports:
-  #     - "3003:3003"
-  #   networks:
-  #     - mynetwork
-  #   # volumes:
-  #   # - ws_data:/usr/src/app
+  gateio-ws:
+    build:
+      context: ./gateio_ws
+    environment:
+      - TIMESCALE_DB=gateio
+    ports:
+      - "3003:3003"
+    networks:
+      - mynetwork
+    # volumes:
+    # - ws_data:/usr/src/app
 
-  # redis:
-  #   image: "redis:latest"
-  #   ports:
-  #     - "6379:6379"
-  #   environment:
-  #     - REDIS_REPLICATION_MODE=master
-  #     - REDIS_PASSWORD=your_password
-  #     - REDIS_REQUIREPASS=another_password
-  #   volumes:
-  #     - redis-data:/data
-  #   networks:
-  #     - mynetwork
+  redis:
+    image: "redis:latest"
+    ports:
+      - "6379:6379"
+    environment:
+      - REDIS_REPLICATION_MODE=master
+      - REDIS_PASSWORD=your_password
+      - REDIS_REQUIREPASS=another_password
+    volumes:
+      - redis-data:/data
+    networks:
+      - mynetwork
 
   # gateio-api:
   #   build:
@@ -100,7 +100,7 @@ volumes:
   timescaledb_data:
   # coinalyze_data:
   rabbitmq_data:
-  # redis-data:
+  redis-data:
   # dbeaver-data:
   # ws_data:
   # api_data:
